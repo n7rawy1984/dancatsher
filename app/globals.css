@@ -20,7 +20,7 @@
   --muted: #58686b;
   --line: #dbe2df;
   --section-space: 88px;
-  --header-height: 126px;
+  --header-height: 118px;
 }
 * {
   box-sizing: border-box;
@@ -216,9 +216,17 @@ html[dir='rtl'] .text-link:hover .arrow {
   top: 0;
   z-index: 30;
   background: var(--paper);
+  box-shadow: 0 1px 0 rgb(6 29 36 / 10%);
+}
+@supports (backdrop-filter: blur(8px)) or (-webkit-backdrop-filter: blur(8px)) {
+  .site-header {
+    background: rgb(246 248 246 / 94%);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
 }
 .header-main {
-  height: 92px;
+  height: 84px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -266,9 +274,9 @@ html[dir='rtl'] .text-link:hover .arrow {
   align-items: center;
 }
 .desktop-nav a {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
-  padding-block: 35px;
+  padding-block: 30px;
   position: relative;
   white-space: nowrap;
 }
@@ -277,7 +285,7 @@ html[dir='rtl'] .text-link:hover .arrow {
   height: 2px;
   background: var(--cyan);
   position: absolute;
-  bottom: 22px;
+  bottom: 17px;
   inset-inline: 0;
 }
 .desktop-nav a:hover {
@@ -348,6 +356,9 @@ html[dir='rtl'] .text-link:hover .arrow {
   border-bottom: 1px solid var(--line);
   font-size: 14px;
   font-weight: 600;
+}
+.mobile-nav a:not(:last-child) {
+  font-size: 15px;
 }
 .hero {
   background: var(--petroleum);
@@ -1156,7 +1167,7 @@ html[lang='ar'] .desktop-nav {
   gap: 19px;
 }
 html[lang='ar'] .desktop-nav a {
-  font-size: 12px;
+  font-size: 13px;
 }
 html[lang='ar'] .division-title h3 {
   font-size: 20px;
@@ -1288,7 +1299,7 @@ html[lang='ar'] .hero .eyebrow {
 }
 @media (max-width: 900px) {
   :root {
-    --header-height: 114px;
+    --header-height: 108px;
   }
   .desktop-nav {
     display: none;
@@ -1297,7 +1308,7 @@ html[lang='ar'] .hero .eyebrow {
     display: block;
   }
   .header-main {
-    height: 80px;
+    height: 74px;
   }
   .header-quote {
     display: inline-flex;
@@ -1458,7 +1469,7 @@ html[lang='ar'] .hero .eyebrow {
 }
 @media (max-width: 767px) {
   :root {
-    --header-height: 104px;
+    --header-height: 98px;
   }
   .container {
     width: calc(100% - 40px);
@@ -1475,7 +1486,7 @@ html[lang='ar'] .hero .eyebrow {
     display: none;
   }
   .header-main {
-    height: 76px;
+    height: 70px;
     gap: 10px;
   }
   .brand {
