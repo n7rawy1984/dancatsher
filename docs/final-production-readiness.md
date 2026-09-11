@@ -101,7 +101,7 @@ This phase is intentionally not a deep security audit; no npm advisory upload or
 
 Git excludes `_source/`, `.inspection/`, `.next/`, `node_modules/`, local env files, host caches, screenshots/test artifacts, generated TypeScript cache/type entry, private-key formats and editor/OS junk. `.env.example` is kept. Application/data/lib/components, production assets, useful scripts, README, historical/relevant docs, package/lock files and configuration are included. All 16 current source files, including the newly approved logo, retain their input hashes.
 
-The current folder has no usable Git history, reconfirmed outside the sandbox. The user authorized a new repository after all final checks. No existing history will be fabricated or overwritten; the local preparation outcome is recorded below.
+Before initialization, the folder had no usable Git history, reconfirmed outside the sandbox. The user authorized a new repository after all final checks. No existing history will be fabricated or overwritten; the local preparation outcome is recorded below.
 
 ## GitHub next step — after checks and repository preparation
 
@@ -135,4 +135,4 @@ ESLint, strict TypeScript, configuration checks and production build passed. No 
 
 No push, deployment, DNS change, real email, credentials or deep security audit occurred. All 16 source hashes match. Automatic email integration remains the only deferred website functionality.
 
-Local repository preparation: a fresh `main` repository was initialized only after all checks passed. No prior history was overwritten and no remote is configured. The initial release commit message is `Initial DANCATSHER corporate website release`. Private originals, local inspection/build/dependency artifacts and secrets are excluded from staging. Nothing has been pushed.
+Local repository preparation: a fresh `main` repository was initialized only after all checks passed. No prior history was overwritten and no remote is configured. Initial commit `647055a` contains the reviewed release, with message `Initial DANCATSHER corporate website release`. Private originals, local inspection/build/dependency artifacts and secrets are excluded from staging. Nothing has been pushed.
