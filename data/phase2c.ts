@@ -8,21 +8,21 @@ export const phase2cSeo = {
     title: localized('Industrial Products & Material Categories', 'المنتجات الصناعية وفئات المواد'),
     description: localized(
       'Explore seven source-backed categories of industrial materials, tools, PPE, pipes, fittings, welding and electrical products from DANCATSHER.',
-      'استكشف سبع فئات موثّقة من المواد الصناعية والأدوات ومعدات الوقاية والأنابيب والوصلات ومنتجات اللحام والكهرباء لدى دانكاتشر.',
+      'استكشف سبع فئات موثّقة من المواد الصناعية والأدوات ومعدات الوقاية والأنابيب والوصلات ومنتجات اللحام والكهرباء لدى دان كاتشر.',
     ),
   },
   projects: {
     title: localized('Site Work & Project Experience', 'أعمال المواقع والخبرة العملية'),
     description: localized(
       'View genuine supplied photography representing DANCATSHER civil, paving, HVAC, masonry and interior fit-out work types.',
-      'شاهد صوراً أصلية مقدمة تمثل أنواع أعمال دانكاتشر في الأعمال المدنية والرصف والتكييف والمباني والتجهيزات الداخلية.',
+      'شاهد صوراً أصلية مقدمة تمثل أنواع أعمال دان كاتشر في الأعمال المدنية والرصف والتكييف والمباني والتجهيزات الداخلية.',
     ),
   },
   contact: {
-    title: localized('Contact DANCATSHER', 'تواصل مع دانكاتشر'),
+    title: localized('Contact DANCATSHER', 'تواصل مع دان كاتشر'),
     description: localized(
       'Contact DANCATSHER Contracting L.L.C. in Abu Dhabi to discuss contracting, HVAC, MEP or industrial material requirements.',
-      'تواصل مع دانكاتشر للمقاولات ذ.م.م. في أبوظبي لمناقشة متطلبات المقاولات أو التكييف أو الأعمال الكهروميكانيكية أو المواد الصناعية.',
+      'تواصل مع دان كاتشر للمقاولات ذ.م.م. في أبوظبي لمناقشة متطلبات المقاولات أو التكييف أو الأعمال الكهروميكانيكية أو المواد الصناعية.',
     ),
   },
 } as const;
@@ -45,7 +45,7 @@ export const productsPage = {
     title: localized('A catalog for defining requirements.', 'كتالوج يساعد على تحديد المتطلبات.'),
     body: localized(
       'This catalog reflects the supplied DANCATSHER trading profile. It provides a clear starting point for commercial discussion rather than live inventory, online pricing or fixed technical specifications.',
-      'يعكس هذا الكتالوج ملف التوريد المقدم من دانكاتشر، ويوفّر نقطة بداية واضحة للنقاش التجاري دون أن يمثّل مخزوناً مباشراً أو تسعيراً إلكترونياً أو مواصفات فنية ثابتة.',
+      'يعكس هذا الكتالوج ملف التوريد المقدم من دان كاتشر، ويوفّر نقطة بداية واضحة للنقاش التجاري دون أن يمثّل مخزوناً مباشراً أو تسعيراً إلكترونياً أو مواصفات فنية ثابتة.',
     ),
   },
   indexEyebrow: localized('Category index', 'فهرس الفئات'),
@@ -130,7 +130,7 @@ export const contactPage = {
     title: localized('Start with what\nyou need.', 'ابدأ بما\nتحتاج إليه.'),
     lead: localized(
       'Discuss a project to build, a system to install or industrial materials to source with the DANCATSHER team in Abu Dhabi.',
-      'ناقش مع فريق دانكاتشر في أبوظبي مشروعاً تريد تنفيذه أو نظاماً تريد تركيبه أو مواد صناعية تحتاج إلى توريدها.',
+      'ناقش مع فريق دان كاتشر في أبوظبي مشروعاً تريد تنفيذه أو نظاماً تريد تركيبه أو مواد صناعية تحتاج إلى توريدها.',
     ),
   },
   detailsEyebrow: localized('Direct contact', 'تواصل مباشر'),

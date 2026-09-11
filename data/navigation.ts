@@ -13,7 +13,7 @@ export const navigation: readonly { path: string; label: Localized; description:
     label: { en: 'About', ar: 'عن الشركة' },
     description: {
       en: 'Meet DANCATSHER and the engineering experience behind our work.',
-      ar: 'تعرّف على دانكاتشر والخبرات الهندسية التي يقوم عليها عملنا.',
+      ar: 'تعرّف على دان كاتشر والخبرات الهندسية التي يقوم عليها عملنا.',
     },
   },
   {

@@ -4,10 +4,10 @@ const localized = <T>(en: T, ar: T): Localized<T> => ({ en, ar });
 
 export const innerPageSeo = {
   about: {
-    title: localized('About DANCATSHER', 'عن دانكاتشر'),
+    title: localized('About DANCATSHER', 'عن دان كاتشر'),
     description: localized(
       'Learn about DANCATSHER Contracting L.L.C., its integrated capabilities and the combined EPC experience behind its Abu Dhabi team.',
-      'تعرّف على دانكاتشر للمقاولات ذ.م.م. وقدراتها المتكاملة وخبرة فريقها المشتركة في مشاريع الهندسة والتوريد والإنشاء في أبوظبي.',
+      'تعرّف على دان كاتشر للمقاولات ذ.م.م. وقدراتها المتكاملة وخبرة فريقها المشتركة في مشاريع الهندسة والتوريد والإنشاء في أبوظبي.',
     ),
   },
   divisions: {
@@ -17,14 +17,14 @@ export const innerPageSeo = {
     ),
     description: localized(
       'Explore DANCATSHER capabilities in Contracting and EPC, HVAC and MEP, and industrial material supply.',
-      'استكشف قدرات دانكاتشر في المقاولات والهندسة والتوريد والإنشاء، والتكييف والأعمال الكهروميكانيكية، وتوريد المواد الصناعية.',
+      'استكشف قدرات دان كاتشر في المقاولات والهندسة والتوريد والإنشاء، والتكييف والأعمال الكهروميكانيكية، وتوريد المواد الصناعية.',
     ),
   },
   contracting: {
     title: localized('Contracting & EPC Services', 'خدمات المقاولات والهندسة والتوريد والإنشاء'),
     description: localized(
       'Building EPC, civil works, fit-out, steel structures and coordinated MEP services from DANCATSHER in Abu Dhabi.',
-      'خدمات المباني والأعمال المدنية والتجهيزات الداخلية والهياكل الفولاذية والأعمال الكهروميكانيكية المتكاملة من دانكاتشر في أبوظبي.',
+      'خدمات المباني والأعمال المدنية والتجهيزات الداخلية والهياكل الفولاذية والأعمال الكهروميكانيكية المتكاملة من دان كاتشر في أبوظبي.',
     ),
   },
   hvac: {
@@ -48,7 +48,7 @@ export const innerPageSeo = {
     title: localized('Quality, Health, Safety & Environment', 'الجودة والصحة والسلامة والبيئة'),
     description: localized(
       'DANCATSHER approach to quality planning, contractor and supplier oversight, health, safety and environmental responsibility.',
-      'نهج دانكاتشر في تخطيط الجودة ومتابعة المقاولين والمورّدين والصحة والسلامة والمسؤولية البيئية.',
+      'نهج دان كاتشر في تخطيط الجودة ومتابعة المقاولين والمورّدين والصحة والسلامة والمسؤولية البيئية.',
     ),
   },
 } as const;
@@ -72,11 +72,11 @@ export const commonInner = {
 
 export const aboutPage = {
   hero: {
-    eyebrow: localized('01 / About DANCATSHER', '٠١ / عن دانكاتشر'),
+    eyebrow: localized('01 / About DANCATSHER', '٠١ / عن دان كاتشر'),
     title: localized('Built around joined-up capability.', 'قدرات متكاملة.\nورؤية واحدة.'),
     lead: localized(
       'DANCATSHER Contracting L.L.C. brings engineering, construction, building services and material supply together from its base in Abu Dhabi.',
-      'تجمع دانكاتشر للمقاولات ذ.م.م. بين الهندسة والإنشاء وخدمات المباني وتوريد المواد انطلاقاً من مقرها في أبوظبي.',
+      'تجمع دان كاتشر للمقاولات ذ.م.م. بين الهندسة والإنشاء وخدمات المباني وتوريد المواد انطلاقاً من مقرها في أبوظبي.',
     ),
     imageAlt: localized(
       'External paved works in front of a shopping centre in Abu Dhabi',
@@ -91,7 +91,7 @@ export const aboutPage = {
     ),
     lead: localized(
       'Founded in 2018, DANCATSHER was established to deliver quality-focused work aligned with client requirements.',
-      'تأسست دانكاتشر عام 2018 لتنفيذ أعمال تركّز على الجودة وتتوافق مع متطلبات العملاء.',
+      'تأسست دان كاتشر عام 2018 لتنفيذ أعمال تركّز على الجودة وتتوافق مع متطلبات العملاء.',
     ),
     body: localized(
       'The company works across civil, mechanical, electrical and air-conditioning disciplines, supported by material-supply capability. This breadth helps the team consider budgets, construction schedules and the sequence of work as connected parts of delivery.',
@@ -158,11 +158,11 @@ export const aboutPage = {
     title: localized('A team perspective across disciplines.', 'خبرة فريق تمتد عبر التخصصات.'),
     lead: localized(
       'DANCATSHER is managed by engineers and managers whose combined EPC experience exceeds 30 years in the UAE and internationally.',
-      'يدير دانكاتشر مهندسون ومديرون تتجاوز خبرتهم المشتركة 30 عاماً في مشاريع الهندسة والتوريد والإنشاء داخل الإمارات وخارجها.',
+      'يدير دان كاتشر مهندسون ومديرون تتجاوز خبرتهم المشتركة 30 عاماً في مشاريع الهندسة والتوريد والإنشاء داخل الإمارات وخارجها.',
     ),
     body: localized(
       'The 30+ years represents the team’s combined professional experience across EPC work. DANCATSHER itself was established in 2018.',
-      'تمثّل الأعوام الثلاثون وأكثر الخبرة المهنية المشتركة للفريق في أعمال الهندسة والتوريد والإنشاء، بينما تأسست دانكاتشر نفسها عام 2018.',
+      'تمثّل الأعوام الثلاثون وأكثر الخبرة المهنية المشتركة للفريق في أعمال الهندسة والتوريد والإنشاء، بينما تأسست دان كاتشر نفسها عام 2018.',
     ),
     imageAlt: localized(
       'Site team installing interlock paving',
@@ -243,7 +243,7 @@ export const contractingPage = {
     ),
     body: localized(
       'DANCATSHER’s documented scope spans building EPC, industrial, commercial and domestic civil works, interior fit-out, steel structures and associated mechanical and electrical services.',
-      'يشمل نطاق دانكاتشر الموثّق أعمال الهندسة والتوريد والإنشاء للمباني، والأعمال المدنية الصناعية والتجارية والسكنية، والتجهيزات الداخلية والهياكل الفولاذية، إلى جانب الخدمات الميكانيكية والكهربائية المرتبطة بها.',
+      'يشمل نطاق دان كاتشر الموثّق أعمال الهندسة والتوريد والإنشاء للمباني، والأعمال المدنية الصناعية والتجارية والسكنية، والتجهيزات الداخلية والهياكل الفولاذية، إلى جانب الخدمات الميكانيكية والكهربائية المرتبطة بها.',
     ),
   },
   groups: [
@@ -615,7 +615,7 @@ export const qhsePage = {
     ),
     body: localized(
       'DANCATSHER’s source quality policy focuses on identifying contractors and suppliers that can significantly affect delivery, then evaluating, monitoring and managing their quality-control processes against applicable project and company requirements.',
-      'تركّز سياسة الجودة الموثّقة لدى دانكاتشر على تحديد المقاولين والمورّدين الذين قد يؤثرون بصورة جوهرية في التنفيذ، ثم تقييم إجراءات ضبط الجودة لديهم ومتابعتها وإدارتها وفق متطلبات المشروع والشركة ذات الصلة.',
+      'تركّز سياسة الجودة الموثّقة لدى دان كاتشر على تحديد المقاولين والمورّدين الذين قد يؤثرون بصورة جوهرية في التنفيذ، ثم تقييم إجراءات ضبط الجودة لديهم ومتابعتها وإدارتها وفق متطلبات المشروع والشركة ذات الصلة.',
     ),
   },
   qualitySteps: [
