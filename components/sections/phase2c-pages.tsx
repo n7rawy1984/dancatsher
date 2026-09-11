@@ -10,6 +10,7 @@ import type { Locale, Localized } from '@/types/content';
 import { Arrow, ButtonLink, TextLink } from '@/components/ui/primitives';
 import { ContactEnquiryForm } from './contact-enquiry-form';
 import { InnerHero } from './inner-pages';
+import { ProductImageGallery } from './client-image-sections';
 import { ProjectPortfolio } from './project-portfolio';
 
 const t = <T,>(value: Localized<T>, locale: Locale) => value[locale];
@@ -33,7 +34,14 @@ export function ProductsPage({ locale }: { locale: Locale }) {
             <p className="eyebrow">{t(p.intro.eyebrow, locale)}</p>
             <h2>{t(p.intro.title, locale)}</h2>
           </div>
-          <p>{t(p.intro.body, locale)}</p>
+          <div>
+            <p>{t(p.intro.body, locale)}</p>
+            <p className="catalog-source-note">
+              {locale === 'ar'
+                ? 'الصور للتوضيح فقط. العلامات والبيانات الظاهرة لا تعني وكالة أو شراكة أو اعتماداً، ولا تؤكد المخزون أو المواصفات. تُؤكد تفاصيل التوريد عند الاستفسار.'
+                : 'Images are illustrative. Visible brands and labels do not imply distributorship, partnership or certification, or confirm stock or specifications. Supply details are confirmed on enquiry.'}
+            </p>
+          </div>
         </div>
       </section>
       <nav className="product-index" aria-label={t(p.indexEyebrow, locale)}>
@@ -85,6 +93,7 @@ export function ProductsPage({ locale }: { locale: Locale }) {
                 </ButtonLink>
               </div>
             </div>
+            <ProductImageGallery category={category.id} locale={locale} />
           </section>
         ))}
       </div>

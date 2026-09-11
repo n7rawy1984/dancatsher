@@ -1,0 +1,1847 @@
+[
+  {
+    "source": "oil-gas-cover/oil-gas-cover.jpg",
+    "group": "oil-gas-cover",
+    "category": "oil-gas-cover",
+    "caption": {
+      "en": "Oil & gas material supply",
+      "ar": "رسم توضيحي لتوريد مواد النفط والغاز"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/oil-gas-cover/oil-gas-cover.webp",
+    "width": 372,
+    "height": 489,
+    "bytes": 22378,
+    "sourceHash": "25228f19660fe0a5503df77dd7ce558abbebf59a2624659b796c5a2939bcfbc4"
+  },
+  {
+    "source": "power-electrical/01-brass-electrical-accessories.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Brass electrical accessories",
+      "ar": "ملحقات كهربائية نحاسية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/brass-electrical-accessories.webp",
+    "width": 205,
+    "height": 165,
+    "bytes": 7756,
+    "sourceHash": "1a5257ae661ce774e96407a818b7be605e27deff02d0839c0742f7e210ac01b0"
+  },
+  {
+    "source": "power-electrical/02-cable-glands-connectors.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Cable glands and connectors",
+      "ar": "جلاندات وموصلات الكابلات"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/cable-glands-connectors.webp",
+    "width": 195,
+    "height": 170,
+    "bytes": 5850,
+    "sourceHash": "bcafaf7847ad7dfa046deb67b48f34e64e873aa8679ba21d7f0237dcff8b9905"
+  },
+  {
+    "source": "power-electrical/03-conduit-fittings.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Conduit fittings",
+      "ar": "وصلات المواسير الكهربائية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/conduit-fittings.webp",
+    "width": 160,
+    "height": 170,
+    "bytes": 6928,
+    "sourceHash": "a71b41a628334364b3d7fb233626ce71c25eacefbfaf51f00123f9f384302025"
+  },
+  {
+    "source": "power-electrical/04-grounding-accessories.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Grounding accessories",
+      "ar": "ملحقات التأريض"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/grounding-accessories.webp",
+    "width": 150,
+    "height": 170,
+    "bytes": 3504,
+    "sourceHash": "c4b65bc5e46841c2eace315fdd4f2e268d45ca958e7c6674b549dc35d7fdefd2"
+  },
+  {
+    "source": "power-electrical/05-breaker-enclosure.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Breaker enclosure",
+      "ar": "صندوق قواطع كهربائية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/breaker-enclosure.webp",
+    "width": 155,
+    "height": 170,
+    "bytes": 2382,
+    "sourceHash": "c670031d48934a99411964c9bbfddea6f19b26ac938bc8aaccc985515227bbdc"
+  },
+  {
+    "source": "power-electrical/06-electrical-panel-box.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Electrical panel box",
+      "ar": "صندوق لوحة كهربائية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/electrical-panel-box.webp",
+    "width": 158,
+    "height": 170,
+    "bytes": 1998,
+    "sourceHash": "9f4a3809de68c364d7805028390bd9d82d00cf3c325967b23dc8ce2d2f5f5f6a"
+  },
+  {
+    "source": "power-electrical/07-switches-sockets.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Switches and sockets",
+      "ar": "مفاتيح ومقابس"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/switches-sockets.webp",
+    "width": 185,
+    "height": 150,
+    "bytes": 5574,
+    "sourceHash": "236d5da310836c8866db7459004f51ef80b42e9a71079611cc56380becc3642c"
+  },
+  {
+    "source": "power-electrical/08-coiled-electrical-wire.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Coiled electrical wire",
+      "ar": "أسلاك كهربائية ملفوفة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/coiled-electrical-wire.webp",
+    "width": 150,
+    "height": 150,
+    "bytes": 5268,
+    "sourceHash": "40a34f8883dc9d6e4cbd7697d12733168116011569117c15dcdc91c270c68bd7"
+  },
+  {
+    "source": "power-electrical/09-power-cable.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Power cable",
+      "ar": "كابل طاقة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/power-cable.webp",
+    "width": 260,
+    "height": 150,
+    "bytes": 7196,
+    "sourceHash": "2251adcbd8bf1483a86e1ed1fb7376b260c3c4631f2275f3d7f78d98e0798170"
+  },
+  {
+    "source": "power-electrical/10-multicore-cable.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Multicore cable",
+      "ar": "كابل متعدد النوى"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/multicore-cable.webp",
+    "width": 115,
+    "height": 150,
+    "bytes": 4008,
+    "sourceHash": "53b3aa2f0d11bb1e71370466e28a793b23a791bf41d951869375f9d03f68a5a3"
+  },
+  {
+    "source": "power-electrical/11-coloured-wires.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Coloured wires",
+      "ar": "أسلاك ملونة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/coloured-wires.webp",
+    "width": 155,
+    "height": 150,
+    "bytes": 5130,
+    "sourceHash": "8dfae19bf7ec7ad250a8740770484ed102695ef55c5130093b4e4fb67baf7a01"
+  },
+  {
+    "source": "power-electrical/12-cable-reel.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Cable reel",
+      "ar": "بكرة كابل"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/cable-reel.webp",
+    "width": 163,
+    "height": 150,
+    "bytes": 2156,
+    "sourceHash": "beea7ab0b97e0562b378f2e7c20f351fba3179b1c8d61adb6faa97e35e8f2569"
+  },
+  {
+    "source": "power-electrical/13-metal-electrical-boxes.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Metal electrical boxes",
+      "ar": "علب كهربائية معدنية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/metal-electrical-boxes.webp",
+    "width": 220,
+    "height": 150,
+    "bytes": 6608,
+    "sourceHash": "ceaeb70cc95950b93957f57c64c3db8d28e2c884a5f678ba2276e67d5552eb5d"
+  },
+  {
+    "source": "power-electrical/14-plastic-electrical-boxes.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Plastic electrical boxes",
+      "ar": "علب كهربائية بلاستيكية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/plastic-electrical-boxes.webp",
+    "width": 140,
+    "height": 150,
+    "bytes": 1972,
+    "sourceHash": "e0bf1550c41f442c6a8bd160fea6638b2341b2eb976d99b2ade59a0834b52019"
+  },
+  {
+    "source": "power-electrical/15-industrial-fan-orange.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Industrial fan",
+      "ar": "مروحة صناعية برتقالية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/industrial-fan-orange.webp",
+    "width": 95,
+    "height": 150,
+    "bytes": 2978,
+    "sourceHash": "bdee72af6a4f37c9c09f108ffc9198a046114f38cdd54a9b1c11094e067a5c48"
+  },
+  {
+    "source": "power-electrical/16-industrial-fan-black.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Industrial fan",
+      "ar": "مروحة صناعية سوداء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/industrial-fan-black.webp",
+    "width": 95,
+    "height": 150,
+    "bytes": 4134,
+    "sourceHash": "0a296ceea60f30ea64cc7de775953c050d5a7121cd6d519f374cee159f170eab"
+  },
+  {
+    "source": "power-electrical/17-industrial-fan-yellow.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Industrial fan",
+      "ar": "مروحة صناعية صفراء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/industrial-fan-yellow.webp",
+    "width": 95,
+    "height": 150,
+    "bytes": 4240,
+    "sourceHash": "3f51ec67ec99b118086425a232aa11380a5b2e407bc4c847a954ad4b12130fc2"
+  },
+  {
+    "source": "power-electrical/18-industrial-fan-compact.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Industrial fan",
+      "ar": "مروحة صناعية مدمجة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/industrial-fan-compact.webp",
+    "width": 90,
+    "height": 150,
+    "bytes": 4002,
+    "sourceHash": "81501f1bcfd35b0f50b4e494e7a5eb02f9b08d4608de1f0b9e0befd11b798a6b"
+  },
+  {
+    "source": "power-electrical/19-industrial-fan-orange-2.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Industrial fan",
+      "ar": "مروحة صناعية برتقالية دائرية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/industrial-fan-orange-2.webp",
+    "width": 95,
+    "height": 150,
+    "bytes": 3554,
+    "sourceHash": "20bb52e9864f5d740234660c5e35a965960d036e85b8b6e407df00bdb8fdd50d"
+  },
+  {
+    "source": "power-electrical/20-industrial-fan-black-2.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Industrial fan",
+      "ar": "مروحة صناعية سوداء دائرية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/industrial-fan-black-2.webp",
+    "width": 70,
+    "height": 150,
+    "bytes": 2964,
+    "sourceHash": "899a3e3409d31fae745826bb5e0090d3d6c4f8543c4223517bf542b659eac78a"
+  },
+  {
+    "source": "power-electrical/21-pedestal-fan.jpg",
+    "group": "power-electrical",
+    "category": "electrical",
+    "caption": {
+      "en": "Pedestal fan",
+      "ar": "مروحة عمودية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/power-electrical/pedestal-fan.webp",
+    "width": 95,
+    "height": 150,
+    "bytes": 2218,
+    "sourceHash": "e317c83feedbf063ef2d7fe669d7a0647a282daa6441234553ec0a0c145646c0"
+  },
+  {
+    "source": "ppe/01-protective-coveralls.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Protective coveralls",
+      "ar": "بدلات وقاية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/protective-coveralls.webp",
+    "width": 125,
+    "height": 190,
+    "bytes": 5046,
+    "sourceHash": "08be106731c9eac7cfeb6e50d19dd47865be1b7793ee55087b671108019d4652"
+  },
+  {
+    "source": "ppe/02-safety-footwear.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Safety footwear",
+      "ar": "أحذية سلامة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/safety-footwear.webp",
+    "width": 135,
+    "height": 190,
+    "bytes": 7578,
+    "sourceHash": "c3776dd629d23b2cd22cd4f2cbb5db2b339b5914c9bc0a2f9a54e86a8f09bbbd"
+  },
+  {
+    "source": "ppe/03-red-protective-gloves.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Protective gloves",
+      "ar": "قفازات وقاية حمراء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/red-protective-gloves.webp",
+    "width": 155,
+    "height": 195,
+    "bytes": 6064,
+    "sourceHash": "5c15d727e240f289349abdc1b5efd6bfdc2d0a373244b378375048a59ad36808"
+  },
+  {
+    "source": "ppe/04-black-protective-gloves.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Protective gloves",
+      "ar": "قفازات وقاية سوداء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/black-protective-gloves.webp",
+    "width": 170,
+    "height": 195,
+    "bytes": 5460,
+    "sourceHash": "3a47f3b3b24369353f69721a168a1f05b5a3fa7569af0f5b1d457d014e63b5a4"
+  },
+  {
+    "source": "ppe/05-white-protective-gloves.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Protective gloves",
+      "ar": "قفازات وقاية بيضاء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/white-protective-gloves.webp",
+    "width": 190,
+    "height": 215,
+    "bytes": 6520,
+    "sourceHash": "7c8efd6bac54f4e6ca4236cfafd1ee4b09f16c00d9e70ebb68742cd3693d88b5"
+  },
+  {
+    "source": "ppe/06-blue-protective-gloves.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Protective gloves",
+      "ar": "قفازات وقاية زرقاء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/blue-protective-gloves.webp",
+    "width": 175,
+    "height": 200,
+    "bytes": 7212,
+    "sourceHash": "227effdcc3646c3fde6ca082839eb2f1cbd003df1ae0d3be5245104f465b0bbd"
+  },
+  {
+    "source": "ppe/07-safety-glasses.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Safety glasses",
+      "ar": "نظارات سلامة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/safety-glasses.webp",
+    "width": 180,
+    "height": 150,
+    "bytes": 2464,
+    "sourceHash": "d79f0cf7b4d5004318b644a8032817db33376d40566c4a7ab70f5a201562094c"
+  },
+  {
+    "source": "ppe/08-hard-hat.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Safety helmet",
+      "ar": "خوذة سلامة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/hard-hat.webp",
+    "width": 175,
+    "height": 150,
+    "bytes": 2800,
+    "sourceHash": "61f01de1c99300f746c4dc1ec70c490b95b81a06577be2c26279bed65f1b6a58"
+  },
+  {
+    "source": "ppe/09-respirator.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Respirator",
+      "ar": "قناع تنفس"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/respirator.webp",
+    "width": 145,
+    "height": 150,
+    "bytes": 5232,
+    "sourceHash": "471ba1c6b34a06b6c95a0560421b9a9321fc2eba9b392a80623a5516edfa0544"
+  },
+  {
+    "source": "ppe/10-black-safety-boots.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Safety boots",
+      "ar": "أحذية سلامة سوداء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/black-safety-boots.webp",
+    "width": 215,
+    "height": 150,
+    "bytes": 7814,
+    "sourceHash": "2c16417d07b0760f5adaac7ef58950c8847ae78efb56d5f8760d8b85daade4da"
+  },
+  {
+    "source": "ppe/11-tan-safety-boots.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Safety boots",
+      "ar": "أحذية سلامة بنية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/tan-safety-boots.webp",
+    "width": 220,
+    "height": 150,
+    "bytes": 4732,
+    "sourceHash": "01fb27d9b66852bdfe6c5386d418d937e6ab78f1ea97251f221e1973a6abacf2"
+  },
+  {
+    "source": "ppe/12-spill-kit.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Spill kit",
+      "ar": "عدة معالجة الانسكابات"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/spill-kit.webp",
+    "width": 160,
+    "height": 170,
+    "bytes": 4518,
+    "sourceHash": "f98516a095e3299c290eebd5e8990d627a8b7c8005c0e72e7c6e72a35ade732b"
+  },
+  {
+    "source": "ppe/13-spill-kit-bin.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Spill kit bin",
+      "ar": "حاوية عدة معالجة الانسكابات"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/spill-kit-bin.webp",
+    "width": 120,
+    "height": 170,
+    "bytes": 3364,
+    "sourceHash": "d2d1e726282d4fb61034ec977daf0df167117d70144a6f0f6b8cbc214895396e"
+  },
+  {
+    "source": "ppe/14-chemical-spill-kit.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Chemical spill kit",
+      "ar": "عدة معالجة الانسكابات الكيميائية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/chemical-spill-kit.webp",
+    "width": 120,
+    "height": 170,
+    "bytes": 4866,
+    "sourceHash": "f6a05ba911d5eb485dc07bb19013d09add75e0ac21ec20c46fec542c9194f705"
+  },
+  {
+    "source": "ppe/15-life-jacket.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Life jacket",
+      "ar": "سترة نجاة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/life-jacket.webp",
+    "width": 120,
+    "height": 170,
+    "bytes": 4144,
+    "sourceHash": "f904eae9e5cc3ec7da713e3ef5372dc3ed23cbbc742b1cad4e614ef3f0e61518"
+  },
+  {
+    "source": "ppe/16-life-ring.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Life ring",
+      "ar": "طوق نجاة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/life-ring.webp",
+    "width": 160,
+    "height": 170,
+    "bytes": 5948,
+    "sourceHash": "629913775bf2ea7daec2e1e0f29b013ef9ca33aa081bbf0bea0d5f209b7bbb87"
+  },
+  {
+    "source": "ppe/17-flotation-vest.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Flotation vest",
+      "ar": "سترة طفو"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/flotation-vest.webp",
+    "width": 115,
+    "height": 170,
+    "bytes": 2908,
+    "sourceHash": "f87f38e9899c1c6d183302637344bef0ea9924f949472ed18e03912f11b25497"
+  },
+  {
+    "source": "ppe/18-safety-harness.jpg",
+    "group": "ppe",
+    "category": "ppe",
+    "caption": {
+      "en": "Safety harness",
+      "ar": "حزام أمان"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/ppe/safety-harness.webp",
+    "width": 190,
+    "height": 170,
+    "bytes": 5436,
+    "sourceHash": "27a34aab50051db0bc8b45324157f43fa75d3796a6009bd0fc0c50a6b59c22b8"
+  },
+  {
+    "source": "hand-tools/01-pliers.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Pliers",
+      "ar": "كماشات"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/pliers.webp",
+    "width": 90,
+    "height": 140,
+    "bytes": 2942,
+    "sourceHash": "03736ba34100dda3de8f9fb4a09afc6fecafccf5913249b5f1d48a943a7fa191"
+  },
+  {
+    "source": "hand-tools/02-adjustable-spanners.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Adjustable spanners",
+      "ar": "مفاتيح ربط قابلة للضبط"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/adjustable-spanners.webp",
+    "width": 100,
+    "height": 140,
+    "bytes": 2700,
+    "sourceHash": "1aceaae20072f5b8dda924f23515cd896d5293ea38f7d8cd600e5f02413ca4d2"
+  },
+  {
+    "source": "hand-tools/03-cutting-grinding-discs.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Cutting and grinding discs",
+      "ar": "أقراص قطع وجلخ"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/cutting-grinding-discs.webp",
+    "width": 210,
+    "height": 140,
+    "bytes": 8646,
+    "sourceHash": "5516ca6d4b51b736eef758030bcc2c5da7ecbc18d04772a20749343d98c1a6dc"
+  },
+  {
+    "source": "hand-tools/04-abrasive-flap-discs.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Abrasive flap discs",
+      "ar": "أقراص صنفرة ريشية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/abrasive-flap-discs.webp",
+    "width": 130,
+    "height": 140,
+    "bytes": 3908,
+    "sourceHash": "508c985b7ef9bc1379ae44d36190a9ebc21ccf0f3a0bd241d5016b3e044a3fe9"
+  },
+  {
+    "source": "hand-tools/05-spanner-set.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Spanner set",
+      "ar": "طقم مفاتيح ربط"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/spanner-set.webp",
+    "width": 185,
+    "height": 140,
+    "bytes": 3600,
+    "sourceHash": "aa11dd1973955868395307e3cf370ae562fd8017ae09b524368d134b71fcfed2"
+  },
+  {
+    "source": "hand-tools/06-hand-tool-set.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Hand tool set",
+      "ar": "طقم أدوات يدوية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/hand-tool-set.webp",
+    "width": 190,
+    "height": 140,
+    "bytes": 5248,
+    "sourceHash": "5c81f92d568f4c520e9cd989e2bdcdf565a3ba0e04262872cb82de9d78eb0eb3"
+  },
+  {
+    "source": "hand-tools/07-drill-bits.jpg",
+    "group": "hand-tools",
+    "category": "power-tools",
+    "caption": {
+      "en": "Drill bits",
+      "ar": "لقم حفر"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/drill-bits.webp",
+    "width": 139,
+    "height": 140,
+    "bytes": 2956,
+    "sourceHash": "9c8a0ff8e49be20767c4ed963a5736c6e01355efee3dc7806eac06298ecf3370"
+  },
+  {
+    "source": "hand-tools/08-caulking-gun.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Caulking gun",
+      "ar": "مسدس مواد سد الفواصل"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/caulking-gun.webp",
+    "width": 180,
+    "height": 95,
+    "bytes": 1916,
+    "sourceHash": "5595ddd1ffb9e0c3e7254b2951443d18f35addbab0bccc072d776af26b46b706"
+  },
+  {
+    "source": "hand-tools/09-heat-gun.jpg",
+    "group": "hand-tools",
+    "category": "power-tools",
+    "caption": {
+      "en": "Heat gun",
+      "ar": "مسدس هواء ساخن"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/heat-gun.webp",
+    "width": 100,
+    "height": 95,
+    "bytes": 1766,
+    "sourceHash": "1993671d6872563939541ba1d5bcbc1c3f38a521642532526491c92d24332280"
+  },
+  {
+    "source": "hand-tools/10-spirit-level.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Spirit level",
+      "ar": "ميزان استواء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/spirit-level.webp",
+    "width": 180,
+    "height": 100,
+    "bytes": 2306,
+    "sourceHash": "f8ff39b7970fec78ba9e98293eb1e56d098e73262029e56217f6e266216c5c6f"
+  },
+  {
+    "source": "hand-tools/11-measuring-tape-yellow.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Measuring tape",
+      "ar": "شريط قياس أصفر"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/measuring-tape-yellow.webp",
+    "width": 105,
+    "height": 100,
+    "bytes": 1384,
+    "sourceHash": "199df0f9d0643c03b07583320309974cc393c5126ea5af161be02855f66c7a6b"
+  },
+  {
+    "source": "hand-tools/12-hacksaw.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Hacksaw",
+      "ar": "منشار حديد يدوي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/hacksaw.webp",
+    "width": 145,
+    "height": 100,
+    "bytes": 2140,
+    "sourceHash": "d2422e79b8575125db8a99caabb9a99076e9319c368f91032e4d8f3c2548ebbc"
+  },
+  {
+    "source": "hand-tools/13-measuring-tape-black.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Measuring tape",
+      "ar": "شريط قياس أسود"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/measuring-tape-black.webp",
+    "width": 125,
+    "height": 100,
+    "bytes": 2426,
+    "sourceHash": "9785dea1ea6bbea37dbc01754b3742d00b694d529b708de1a55b9622fcffa416"
+  },
+  {
+    "source": "hand-tools/14-aviation-snips.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Aviation snips",
+      "ar": "مقص صاج"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/aviation-snips.webp",
+    "width": 160,
+    "height": 135,
+    "bytes": 2670,
+    "sourceHash": "9f84d4ec99273b4842e703b8038b0b0e87a68b14b7a6db0e1d4c3914c42bf48f"
+  },
+  {
+    "source": "hand-tools/15-flap-wheel.jpg",
+    "group": "hand-tools",
+    "category": "power-tools",
+    "caption": {
+      "en": "Flap wheel",
+      "ar": "عجلة صنفرة ريشية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/flap-wheel.webp",
+    "width": 160,
+    "height": 140,
+    "bytes": 5064,
+    "sourceHash": "caeb2a60f67ce23beb25c9c5adacec5c311b5a2e62a9e7bcc025ed59ef9ad23b"
+  },
+  {
+    "source": "hand-tools/16-paint-brush.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Paint brush",
+      "ar": "فرشاة طلاء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/paint-brush.webp",
+    "width": 120,
+    "height": 140,
+    "bytes": 3846,
+    "sourceHash": "630925941a04c6d35412f4236b5f73d0e8ae95f6e2835ee0ace06ceb6bcec977"
+  },
+  {
+    "source": "hand-tools/17-hammers.jpg",
+    "group": "hand-tools",
+    "category": "hand-tools",
+    "caption": {
+      "en": "Hammers",
+      "ar": "مطارق"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hand-tools/hammers.webp",
+    "width": 265,
+    "height": 150,
+    "bytes": 2838,
+    "sourceHash": "7d329a5df243d798de87b7287d09ec9d2cf497c3913a4e5aa97b98e793516ef4"
+  },
+  {
+    "source": "kitchen-sanitary/01-kitchen-fitout.jpg",
+    "group": "kitchen-sanitary",
+    "category": "kitchen-sanitary",
+    "caption": {
+      "en": "Kitchen fit-out",
+      "ar": "تجهيز مطبخ"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/kitchen-sanitary/kitchen-fitout.webp",
+    "width": 325,
+    "height": 290,
+    "bytes": 9266,
+    "sourceHash": "4d3c66871212685bc2c23cde910c2edb67139c4ec2a3f80c07840e5666711f09"
+  },
+  {
+    "source": "kitchen-sanitary/02-kitchen-cabinets.jpg",
+    "group": "kitchen-sanitary",
+    "category": "kitchen-sanitary",
+    "caption": {
+      "en": "Kitchen cabinets",
+      "ar": "خزائن مطبخ"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/kitchen-sanitary/kitchen-cabinets.webp",
+    "width": 415,
+    "height": 290,
+    "bytes": 9684,
+    "sourceHash": "bec0fca7e3d4114fc543e2a27c4e7e5ce99a7618deb1220e83f394845ee691a9"
+  },
+  {
+    "source": "kitchen-sanitary/03-bathroom-fitout.jpg",
+    "group": "kitchen-sanitary",
+    "category": "kitchen-sanitary",
+    "caption": {
+      "en": "Bathroom fit-out",
+      "ar": "تجهيز حمام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/kitchen-sanitary/bathroom-fitout.webp",
+    "width": 385,
+    "height": 290,
+    "bytes": 11612,
+    "sourceHash": "18770f983775dc9a1c5c6d64db65d041d3456868819ff420dbf29bfa9c4751bd"
+  },
+  {
+    "source": "kitchen-sanitary/04-shower-enclosure.jpg",
+    "group": "kitchen-sanitary",
+    "category": "kitchen-sanitary",
+    "caption": {
+      "en": "Shower enclosure",
+      "ar": "حاجز استحمام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/kitchen-sanitary/shower-enclosure.webp",
+    "width": 410,
+    "height": 295,
+    "bytes": 19930,
+    "sourceHash": "8f4875575c87908ddeb7b3b9ae2d655e236b5e16a028f35d7a59918333cc63e5"
+  },
+  {
+    "source": "kitchen-sanitary/05-sanitary-installation.jpg",
+    "group": "kitchen-sanitary",
+    "category": "kitchen-sanitary",
+    "caption": {
+      "en": "Sanitary installation",
+      "ar": "تركيب أدوات صحية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/kitchen-sanitary/sanitary-installation.webp",
+    "width": 255,
+    "height": 295,
+    "bytes": 10606,
+    "sourceHash": "84beff1edd9abd69c787d90b2749f9d3892045c1d8ebaee8d2670a9c0458ad87"
+  },
+  {
+    "source": "kitchen-sanitary/06-bathroom-fixtures.jpg",
+    "group": "kitchen-sanitary",
+    "category": "kitchen-sanitary",
+    "caption": {
+      "en": "Bathroom fixtures",
+      "ar": "تجهيزات حمام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/kitchen-sanitary/bathroom-fixtures.webp",
+    "width": 235,
+    "height": 295,
+    "bytes": 7142,
+    "sourceHash": "5db868f3c7db8931d5e458ed3042359bc44656e78a5b84548658e4cf1b323551"
+  },
+  {
+    "source": "kitchen-sanitary/07-wash-basin.jpg",
+    "group": "kitchen-sanitary",
+    "category": "kitchen-sanitary",
+    "caption": {
+      "en": "Wash basin",
+      "ar": "حوض غسيل"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/kitchen-sanitary/wash-basin.webp",
+    "width": 245,
+    "height": 295,
+    "bytes": 8302,
+    "sourceHash": "f53d29ddeaa31512875d504875c99ae452305026369f63d12e99340562512016"
+  },
+  {
+    "source": "pipes-fittings/01-brass-check-valve.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "Brass valve",
+      "ar": "صمام عدم رجوع نحاسي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/brass-check-valve.webp",
+    "width": 165,
+    "height": 125,
+    "bytes": 3024,
+    "sourceHash": "94e89e5f1c3c03e656f12f32353c5782ae0e7a12fca5af9015ca1fd92983324d"
+  },
+  {
+    "source": "pipes-fittings/02-pressure-gauge.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "Pressure gauge",
+      "ar": "مقياس ضغط"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/pressure-gauge.webp",
+    "width": 170,
+    "height": 125,
+    "bytes": 2902,
+    "sourceHash": "2e848f616c30fb21ea2be5a7245d5ad91c39335958b9f8c947deae4cf75f57c1"
+  },
+  {
+    "source": "pipes-fittings/03-brass-regulator.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "Brass regulator",
+      "ar": "منظم نحاسي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/brass-regulator.webp",
+    "width": 160,
+    "height": 125,
+    "bytes": 2720,
+    "sourceHash": "b2a4808449c15ae910146678ec8aff185fc469e12ba4d26e5e1991ac8f07326b"
+  },
+  {
+    "source": "pipes-fittings/04-ball-valve.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "Ball valve",
+      "ar": "صمام كروي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/ball-valve.webp",
+    "width": 105,
+    "height": 125,
+    "bytes": 1464,
+    "sourceHash": "4f95733d833601f507d374a6d536414d9c730e113e5838aac5761a94618993f6"
+  },
+  {
+    "source": "pipes-fittings/05-copper-fittings.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "Copper fittings",
+      "ar": "وصلات نحاسية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/copper-fittings.webp",
+    "width": 245,
+    "height": 125,
+    "bytes": 8880,
+    "sourceHash": "7aaf0114fa2eaa9097e46887cf69393259635539eeac629738f37d82fc5e3921"
+  },
+  {
+    "source": "pipes-fittings/06-instrument-gauges.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "Instrument gauges",
+      "ar": "أجهزة قياس"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/instrument-gauges.webp",
+    "width": 265,
+    "height": 145,
+    "bytes": 13370,
+    "sourceHash": "2d417536a7c5c8f4491506f95712e0243010044f716bb18d3b4e0d49fbdf8c5b"
+  },
+  {
+    "source": "pipes-fittings/07-industrial-pipe-fittings.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "Industrial pipe fittings",
+      "ar": "وصلات أنابيب صناعية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/industrial-pipe-fittings.webp",
+    "width": 310,
+    "height": 145,
+    "bytes": 13492,
+    "sourceHash": "3e2cb30aabd44cbb9fe55ce3ba1eccb063304ce8c651f00159fa06480ec2d088"
+  },
+  {
+    "source": "pipes-fittings/08-steel-pipes.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "Steel pipes",
+      "ar": "أنابيب فولاذية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/steel-pipes.webp",
+    "width": 255,
+    "height": 145,
+    "bytes": 9566,
+    "sourceHash": "912f912d7c052384f8bed26fa4ea207592f0d1407f31c4b6fc25bd3f76460f7a"
+  },
+  {
+    "source": "pipes-fittings/09-pvc-pipes-fittings.jpg",
+    "group": "pipes-fittings",
+    "category": "pipes-fittings",
+    "caption": {
+      "en": "PVC pipes and fittings",
+      "ar": "أنابيب ووصلات بلاستيكية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/pipes-fittings/pvc-pipes-fittings.webp",
+    "width": 505,
+    "height": 155,
+    "bytes": 23110,
+    "sourceHash": "5d046409970681fe8ea8bbb414f3e63873a6832a9723c284ab904437d872f30e"
+  },
+  {
+    "source": "hvac/01-split-ac-airflow.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Split AC airflow",
+      "ar": "توضيح تدفق هواء مكيف منفصل"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/split-ac-airflow.webp",
+    "width": 255,
+    "height": 170,
+    "bytes": 8224,
+    "sourceHash": "18d6f1392dd9f57d3eb7cfb2c0ed09f5b8866f623e0170639e93d241c672a05a"
+  },
+  {
+    "source": "hvac/02-climate-control.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Climate control system",
+      "ar": "توضيح نظام التحكم بالمناخ"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/climate-control.webp",
+    "width": 180,
+    "height": 170,
+    "bytes": 6946,
+    "sourceHash": "1d7c1934be7a2e34e3b8786ff2763ee7c6c843fdcda3f9fc88af1a8c5083c6f7"
+  },
+  {
+    "source": "hvac/03-ac-service-illustration.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "AC service illustration",
+      "ar": "رسم توضيحي لصيانة المكيفات"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/ac-service-illustration.webp",
+    "width": 490,
+    "height": 170,
+    "bytes": 18154,
+    "sourceHash": "6bd23e0d63a5c0cb98e75f3802c58768faad298ea2b6d0bc5de108c956813b1f"
+  },
+  {
+    "source": "hvac/04-split-ac-unit.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Split AC unit",
+      "ar": "وحدة تكييف منفصلة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/split-ac-unit.webp",
+    "width": 235,
+    "height": 170,
+    "bytes": 4720,
+    "sourceHash": "e49946aae4196454c2ed414aa557f34f11d2800e98419a123d5322b132171c53"
+  },
+  {
+    "source": "hvac/05-wall-unit-service.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Wall AC service",
+      "ar": "صيانة مكيف جداري"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/wall-unit-service.webp",
+    "width": 195,
+    "height": 155,
+    "bytes": 5994,
+    "sourceHash": "0ded09847c5e15ac2a02c41adf2f2b35565d298686c155d0ed1286bd912ab075"
+  },
+  {
+    "source": "hvac/06-chiller-system.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Chiller system",
+      "ar": "نظام تبريد مركزي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/chiller-system.webp",
+    "width": 240,
+    "height": 155,
+    "bytes": 11200,
+    "sourceHash": "9c38d85321a51d014943aef4fc6e397f093a187ad8a3c9f2e3145d6575737fc5"
+  },
+  {
+    "source": "hvac/07-condensing-units-installation.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Condensing units installation",
+      "ar": "تركيب وحدات تكثيف"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/condensing-units-installation.webp",
+    "width": 175,
+    "height": 155,
+    "bytes": 4630,
+    "sourceHash": "47c43394ee830276d528fa4e04ed938b1009650f418805e53386ef6764906492"
+  },
+  {
+    "source": "hvac/08-cassette-ac.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Cassette AC",
+      "ar": "مكيف سقفي كاسيت"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/cassette-ac.webp",
+    "width": 165,
+    "height": 155,
+    "bytes": 4460,
+    "sourceHash": "311fa588d87ee037cceb322b688232e1ce7593c33252bbd42dcc0b0e5f94b720"
+  },
+  {
+    "source": "hvac/10-outdoor-condensing-units.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Outdoor condensing units",
+      "ar": "وحدات تكثيف خارجية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/outdoor-condensing-units.webp",
+    "width": 195,
+    "height": 155,
+    "bytes": 13412,
+    "sourceHash": "7afa1a9933a5efa76c005f7069e04565d3121ffb4818650775b8d70275679bd2"
+  },
+  {
+    "source": "hvac/11-multi-outdoor-units.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Multiple outdoor units",
+      "ar": "مجموعة وحدات خارجية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/multi-outdoor-units.webp",
+    "width": 190,
+    "height": 160,
+    "bytes": 6024,
+    "sourceHash": "df745caf563087fb3fc04b1c2df7eb65a38bb199c64726f624224ef859a791c9"
+  },
+  {
+    "source": "hvac/12-ac-cleaning-service.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "AC cleaning service",
+      "ar": "تنظيف مكيف"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/ac-cleaning-service.webp",
+    "width": 220,
+    "height": 160,
+    "bytes": 7166,
+    "sourceHash": "9a54c6bafb06cfb0d6c6b2fa680020548ace195e64fa919f590fda40533fc27e"
+  },
+  {
+    "source": "hvac/13-air-diffuser.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Air diffuser",
+      "ar": "ناشر هواء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/air-diffuser.webp",
+    "width": 280,
+    "height": 160,
+    "bytes": 8318,
+    "sourceHash": "73beb290c8cc66257f0e25e8bdbdb1aca206ba70b4ce912aacbc6ab1ebfe51ae"
+  },
+  {
+    "source": "hvac/14-split-ac-maintenance.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "Split AC maintenance",
+      "ar": "صيانة مكيف منفصل"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/split-ac-maintenance.webp",
+    "width": 200,
+    "height": 160,
+    "bytes": 5248,
+    "sourceHash": "a4bd0491a03130f69e8054998c4655da433c676dac706c166fc5839a70310516"
+  },
+  {
+    "source": "hvac/15-hvac-ductwork.jpg",
+    "group": "hvac",
+    "category": "hvac",
+    "caption": {
+      "en": "HVAC ductwork",
+      "ar": "مجاري هواء التكييف"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/hvac/hvac-ductwork.webp",
+    "width": 265,
+    "height": 160,
+    "bytes": 8410,
+    "sourceHash": "f2d361e8a707ceb5f18f601235ac40e8b4e2aa0901634d014cec66e202afb251"
+  },
+  {
+    "source": "tiles-installation/01-red-white-pavers.jpg",
+    "group": "tiles-installation",
+    "category": "tiles-installation",
+    "caption": {
+      "en": "Interlock paving",
+      "ar": "رصف ببلاط أحمر وأبيض"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/tiles-installation/red-white-pavers.webp",
+    "width": 190,
+    "height": 270,
+    "bytes": 15518,
+    "sourceHash": "ea6692b8137b1b5f567afc0517c0306ec02c7abecce41698e6d3622f8e6d15f5"
+  },
+  {
+    "source": "tiles-installation/02-red-grey-pavers.jpg",
+    "group": "tiles-installation",
+    "category": "tiles-installation",
+    "caption": {
+      "en": "Interlock paving",
+      "ar": "رصف ببلاط أحمر ورمادي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/tiles-installation/red-grey-pavers.webp",
+    "width": 215,
+    "height": 270,
+    "bytes": 10146,
+    "sourceHash": "aa3fcb2dcaa18585866e017c01b9a7ac80afa035474de381d4a46b0d4eb690ee"
+  },
+  {
+    "source": "tiles-installation/03-road-paving.jpg",
+    "group": "tiles-installation",
+    "category": "tiles-installation",
+    "caption": {
+      "en": "Road paving",
+      "ar": "رصف طريق"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/tiles-installation/road-paving.webp",
+    "width": 280,
+    "height": 270,
+    "bytes": 14930,
+    "sourceHash": "a5776d0ac9782905cfec97fe585f4e0e5598f47eedeb03c25770c5ac73c192d1"
+  },
+  {
+    "source": "tiles-installation/04-walkway-paving.jpg",
+    "group": "tiles-installation",
+    "category": "tiles-installation",
+    "caption": {
+      "en": "Walkway paving",
+      "ar": "رصف ممر"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/tiles-installation/walkway-paving.webp",
+    "width": 210,
+    "height": 270,
+    "bytes": 17444,
+    "sourceHash": "fa0baf89c41f31b82cc6df42c374a1ea0476893e0afd255213de0de5713a4a23"
+  },
+  {
+    "source": "tiles-installation/05-blockwork.jpg",
+    "group": "tiles-installation",
+    "category": "tiles-installation",
+    "caption": {
+      "en": "Blockwork",
+      "ar": "أعمال بناء بالبلوك"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/tiles-installation/blockwork.webp",
+    "width": 215,
+    "height": 270,
+    "bytes": 10366,
+    "sourceHash": "841c88c0828488c07f6a680ee98f3e99a6cdd64c8789d6e7ec42c77b355af0da"
+  },
+  {
+    "source": "tiles-installation/06-paving-team.jpg",
+    "group": "tiles-installation",
+    "category": "tiles-installation",
+    "caption": {
+      "en": "Paving team",
+      "ar": "أعمال تركيب الرصف"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/tiles-installation/paving-team.webp",
+    "width": 190,
+    "height": 280,
+    "bytes": 12026,
+    "sourceHash": "2e0610bdc4bd414e44b569898cd4f78e28429a5d405fa1e5a140b49049ebc14f"
+  },
+  {
+    "source": "tiles-installation/07-villa-paving.jpg",
+    "group": "tiles-installation",
+    "category": "tiles-installation",
+    "caption": {
+      "en": "Villa paving",
+      "ar": "رصف ساحة فيلا"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/tiles-installation/villa-paving.webp",
+    "width": 495,
+    "height": 280,
+    "bytes": 31474,
+    "sourceHash": "d084e36dd2065c384553b5cf64a5393a9a90c5941e6137846dda1be610dc971c"
+  },
+  {
+    "source": "tiles-installation/08-patterned-interlock.jpg",
+    "group": "tiles-installation",
+    "category": "tiles-installation",
+    "caption": {
+      "en": "Patterned interlock",
+      "ar": "رصف إنترلوك بنمط هندسي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/tiles-installation/patterned-interlock.webp",
+    "width": 420,
+    "height": 280,
+    "bytes": 21576,
+    "sourceHash": "0b574a74ac7e10150178b3d9789f86659849ec249404600d151b4f7094135288"
+  },
+  {
+    "source": "packing-adhesives/01-stretch-film-straps.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Stretch film and straps",
+      "ar": "أغشية تغليف وأشرطة ربط"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/stretch-film-straps.webp",
+    "width": 170,
+    "height": 180,
+    "bytes": 4268,
+    "sourceHash": "98b8ee3f454074a89f0e017620cfea35ca80a84ca717a2c1a6416ce0d78e06cf"
+  },
+  {
+    "source": "packing-adhesives/02-specialty-tapes.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Specialty tapes",
+      "ar": "أشرطة لاصقة متخصصة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/specialty-tapes.webp",
+    "width": 200,
+    "height": 180,
+    "bytes": 5946,
+    "sourceHash": "15aed2722a58f9e23bbacc978f38031755f3a1a3fb253f0b42f50d1ddacfc48f"
+  },
+  {
+    "source": "packing-adhesives/03-clear-packing-tape.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Clear packing tape",
+      "ar": "شريط تغليف شفاف"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/clear-packing-tape.webp",
+    "width": 170,
+    "height": 180,
+    "bytes": 4704,
+    "sourceHash": "1024176843184e86df764909a8499d9b641bf0ec27f30202fd186f325f6e8454"
+  },
+  {
+    "source": "packing-adhesives/04-brown-packing-tape.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Brown packing tape",
+      "ar": "شريط تغليف بني"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/brown-packing-tape.webp",
+    "width": 180,
+    "height": 180,
+    "bytes": 3780,
+    "sourceHash": "e86272746cb9fa1f257db26e4da357b4610d3f3ad7fc320e244bffb9ed3c303c"
+  },
+  {
+    "source": "packing-adhesives/05-foam-tape.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Foam tape",
+      "ar": "شريط فوم لاصق"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/foam-tape.webp",
+    "width": 190,
+    "height": 180,
+    "bytes": 7162,
+    "sourceHash": "046882befb6165f1fb7698c575f7b85e319db3d38dfca736441d74c1d230cdc1"
+  },
+  {
+    "source": "packing-adhesives/06-foil-tape.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Foil tape",
+      "ar": "شريط رقائق معدنية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/foil-tape.webp",
+    "width": 190,
+    "height": 170,
+    "bytes": 8094,
+    "sourceHash": "9de513c12d6969a304fc2db438ded2dbeed9999753601070c13f09dfab5e3720"
+  },
+  {
+    "source": "packing-adhesives/07-tarpaulin.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Tarpaulin",
+      "ar": "غطاء مشمع"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/tarpaulin.webp",
+    "width": 210,
+    "height": 170,
+    "bytes": 4982,
+    "sourceHash": "82c0e78f70f3522a475c1a31ac18b02e61a5822c22018e7420de2c45a09cc77d"
+  },
+  {
+    "source": "packing-adhesives/08-bubble-wrap.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Bubble wrap",
+      "ar": "غلاف فقاعي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/bubble-wrap.webp",
+    "width": 200,
+    "height": 170,
+    "bytes": 2786,
+    "sourceHash": "a0c76a1022a0f9b9cff66f2fee730f6cfefb5f6549aad1cc14de1cbc18531ae8"
+  },
+  {
+    "source": "packing-adhesives/09-protective-foam.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Protective foam",
+      "ar": "فوم للحماية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/protective-foam.webp",
+    "width": 350,
+    "height": 170,
+    "bytes": 12168,
+    "sourceHash": "20d6b86e445cd26e92fa5c31623c53d55d5587b4fcfa1eb34433abdad77f0740"
+  },
+  {
+    "source": "packing-adhesives/10-maintenance-spray.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Maintenance spray",
+      "ar": "بخاخ صيانة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/maintenance-spray.webp",
+    "width": 75,
+    "height": 135,
+    "bytes": 2706,
+    "sourceHash": "1b3d85ed3f5ad1ddac8fd04f9f1475dad838cdf6bae6412978d63c47fa042f90"
+  },
+  {
+    "source": "packing-adhesives/11-metal-channel.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Metal channel",
+      "ar": "قطاعات معدنية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/metal-channel.webp",
+    "width": 200,
+    "height": 135,
+    "bytes": 6706,
+    "sourceHash": "0e9ab8581b99276a901ed9c52583e2b9da7fda723c57b53293f29ad3cb46829c"
+  },
+  {
+    "source": "packing-adhesives/12-wire-spool.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Wire spool",
+      "ar": "بكرة سلك"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/wire-spool.webp",
+    "width": 95,
+    "height": 135,
+    "bytes": 2262,
+    "sourceHash": "439d0b9c70411aa325520610eb750a1932ff056015f932833ecf5c42afbea2cf"
+  },
+  {
+    "source": "packing-adhesives/13-lifting-accessories.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Lifting accessories",
+      "ar": "ملحقات رفع"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/lifting-accessories.webp",
+    "width": 190,
+    "height": 135,
+    "bytes": 4732,
+    "sourceHash": "ece4dd361f275f08cc6669d54ed341a3dd335d6eda83bf2a3f696b38956405f4"
+  },
+  {
+    "source": "packing-adhesives/14-utility-ropes.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Utility ropes",
+      "ar": "حبال متعددة الاستخدامات"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/utility-ropes.webp",
+    "width": 215,
+    "height": 135,
+    "bytes": 9080,
+    "sourceHash": "0d8f9850b8ff01b7bb604c7420bd531a2a11e7ec784f999a48aa035f230f85f9"
+  },
+  {
+    "source": "packing-adhesives/15-wire-rope.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "Wire rope",
+      "ar": "حبل سلكي"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/wire-rope.webp",
+    "width": 165,
+    "height": 135,
+    "bytes": 4774,
+    "sourceHash": "3da2a87e4fb1147bbcd01b10e957ccbe9f9b9b686f968d48a07ee30eead77e99"
+  },
+  {
+    "source": "packing-adhesives/16-pu-foam-cans.jpg",
+    "group": "packing-adhesives",
+    "category": "packing-adhesives",
+    "caption": {
+      "en": "PU foam cans",
+      "ar": "عبوات رغوة البولي يوريثان"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/packing-adhesives/pu-foam-cans.webp",
+    "width": 195,
+    "height": 110,
+    "bytes": 2456,
+    "sourceHash": "15cd21eb1c62cca58aedc68f6943623464e805e5d83677cacde2253f87733192"
+  },
+  {
+    "source": "welding-consumables/01-carbide-burrs.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Carbide burrs",
+      "ar": "مبارد دوارة كربيدية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/carbide-burrs.webp",
+    "width": 160,
+    "height": 140,
+    "bytes": 2108,
+    "sourceHash": "77e23c2ff16a0f81d930128931355e713a2d494212be1e190b3a1ff1d7a0dcc2"
+  },
+  {
+    "source": "welding-consumables/02-rotary-burr-set.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Rotary burr set",
+      "ar": "طقم مبارد دوارة"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/rotary-burr-set.webp",
+    "width": 125,
+    "height": 140,
+    "bytes": 2930,
+    "sourceHash": "93bc4a0b5ee31c9fcfffd79e08e6294c481902b43858f37ffd378246650dd47f"
+  },
+  {
+    "source": "welding-consumables/03-ceramic-nozzles.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Ceramic nozzles",
+      "ar": "فوهات سيراميكية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/ceramic-nozzles.webp",
+    "width": 290,
+    "height": 140,
+    "bytes": 5252,
+    "sourceHash": "62301f7afbfc5011ab2f60d4ff37ce5cd102d2eb7c3b822bf62c6fbe96c44c10"
+  },
+  {
+    "source": "welding-consumables/04-welding-accessories.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Welding accessories",
+      "ar": "ملحقات لحام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/welding-accessories.webp",
+    "width": 250,
+    "height": 140,
+    "bytes": 9892,
+    "sourceHash": "6bd2ea766470134f1e9d29d2470238b33dbe586afe084dbe22c7f6e11ab45fa3"
+  },
+  {
+    "source": "welding-consumables/05-brass-welding-fittings.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Brass welding fittings",
+      "ar": "وصلات لحام نحاسية"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/brass-welding-fittings.webp",
+    "width": 200,
+    "height": 140,
+    "bytes": 3140,
+    "sourceHash": "02373066daec4da2dd80428dba9c58d1c97259149c069ce537787bc9c5d303c3"
+  },
+  {
+    "source": "welding-consumables/06-welding-sleeves.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Welding sleeves",
+      "ar": "أكمام واقية للحام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/welding-sleeves.webp",
+    "width": 145,
+    "height": 130,
+    "bytes": 1460,
+    "sourceHash": "4777e4f57984dc7324dbf95a0f8bc3352d2e0528ec78e6e4955cbc5abed708b3"
+  },
+  {
+    "source": "welding-consumables/07-welding-gaiters.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Welding gaiters",
+      "ar": "واقيات ساق للحام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/welding-gaiters.webp",
+    "width": 125,
+    "height": 130,
+    "bytes": 2168,
+    "sourceHash": "062e81f2bef60ad299da7e14d6c9bddcd530dcf74de7385e011223eadcb33968"
+  },
+  {
+    "source": "welding-consumables/08-welding-apron.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Welding apron",
+      "ar": "مريلة لحام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/welding-apron.webp",
+    "width": 160,
+    "height": 130,
+    "bytes": 3048,
+    "sourceHash": "038091880b9f6d7d602354cc13e013bc1b35805b856bcbec27660f8b3ff4aef4"
+  },
+  {
+    "source": "welding-consumables/09-electrodes-lenses.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Electrodes and lenses",
+      "ar": "أقطاب وعدسات لحام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/electrodes-lenses.webp",
+    "width": 230,
+    "height": 130,
+    "bytes": 4228,
+    "sourceHash": "7f57b52e2ad7e56569522dc408ff7b61b73fc95abdd2d5082686d0e7bf4f4d21"
+  },
+  {
+    "source": "welding-consumables/10-red-welding-gloves.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Welding gloves",
+      "ar": "قفازات لحام حمراء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/red-welding-gloves.webp",
+    "width": 125,
+    "height": 130,
+    "bytes": 4320,
+    "sourceHash": "5aa77daed2465168699b1fb104eefdeebc5e3997cd30e3d88bf4b6d93fad5013"
+  },
+  {
+    "source": "welding-consumables/11-white-welding-gloves.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Welding gloves",
+      "ar": "قفازات لحام بيضاء"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/white-welding-gloves.webp",
+    "width": 105,
+    "height": 130,
+    "bytes": 3418,
+    "sourceHash": "2caa238cd97fdab3bceb9ba8ef2f5a4b298a6b29db96b2ded52e16b9721241fa"
+  },
+  {
+    "source": "welding-consumables/12-welding-helmet.jpg",
+    "group": "welding-consumables",
+    "category": "welding",
+    "caption": {
+      "en": "Welding helmet",
+      "ar": "خوذة لحام"
+    },
+    "excluded": false,
+    "src": "/images/client-supplied/welding-consumables/welding-helmet.webp",
+    "width": 190,
+    "height": 130,
+    "bytes": 2686,
+    "sourceHash": "0896bcacacc1241af94fc152531a895ec26f0f779e5fb83826535472d149cda5"
+  }
+]

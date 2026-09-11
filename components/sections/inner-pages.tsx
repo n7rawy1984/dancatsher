@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { ServiceImageSection } from './client-image-sections';
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 import { company } from '@/data/company';
@@ -442,6 +443,8 @@ export function ContractingInnerPage({ locale }: { locale: Locale }) {
           <ServiceGroups locale={locale} groups={p.groups} />
         </div>
       </section>
+      <ServiceImageSection group="kitchen-sanitary" locale={locale} />
+      <ServiceImageSection group="tiles-installation" locale={locale} />
       <section className="section split-detail">
         <div className="container split-detail-grid">
           <div>
@@ -530,6 +533,7 @@ export function HvacInnerPage({ locale }: { locale: Locale }) {
           <ServiceGroups locale={locale} groups={p.systems} />
         </div>
       </section>
+      <ServiceImageSection group="hvac" locale={locale} />
       <ProcessSteps
         locale={locale}
         eyebrow={t(p.method.eyebrow, locale)}
@@ -612,6 +616,7 @@ export function SupplyInnerPage({ locale }: { locale: Locale }) {
           <p>{t(p.overview.body, locale)}</p>
         </div>
       </section>
+      <ServiceImageSection group="oil-gas-cover" locale={locale} />
       <section className="section supply-categories">
         <div className="container">
           <div className="inner-section-heading">

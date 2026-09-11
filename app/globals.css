@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import './inner-pages.css';
 @import './phase2c.css';
+@import './client-galleries.css';
 @theme inline {
   --color-petroleum: #061d24;
   --color-petrol: #0a3039;

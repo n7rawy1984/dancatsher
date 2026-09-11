@@ -4,6 +4,8 @@ Complete bilingual corporate website: 20 English/Arabic pages covering Home, Abo
 
 Start with the [production handover](docs/final-production-readiness.md) and [client data checklist](docs/final-client-data-checklist.md). Earlier phase reports are historical records.
 
+The [11 September client image integration report](docs/client-image-integration.md) records the additional 123 optimized product/service images, bilingual galleries, excluded watermarked crop and coverage verification commands.
+
 ## Local development and verification
 
 ```bash
@@ -43,8 +45,8 @@ The measured long local wait comes from development cold compilation (up to 21.1
 
 ## Source and launch status
 
-`_source/` is immutable and excluded from the site. All 16 current source files, including the newly approved logo, retain their input hashes. Only optimized production copies ship. The original HVAC video is not loaded. See the [source audit](docs/source-audit.md) for asset provenance.
+`_source/` is immutable and excluded from the site. All 152 current source files, including the approved logo and the additional client image package, retain their input hashes. Only optimized production copies ship. The original HVAC video is not loaded. See the [source audit](docs/source-audit.md) for asset provenance.
 
-A fresh `main` repository was initialized after final acceptance because this workspace had no previous usable Git history. The GitHub URL must be supplied and confirmed before adding a remote or pushing. The handover records the resulting repository state and exact commands.
+A fresh `main` repository was initialized after final acceptance because this workspace had no previous usable Git history. The user subsequently pushed the approved baseline (`5402903`) to `origin/main` at `n7rawy1984/dancatsher`. The client image update is prepared locally for a separate user-reviewed push.
 
 Ready for GitHub and Vercel client preview. Import only the confirmed repository into the intended Vercel account, retain `NEXT_PUBLIC_ALLOW_INDEXING=false` and leave `NEXT_PUBLIC_SITE_URL` unset for client preview. Do not connect DNS yet. Automatic enquiry delivery is the only deferred website function; the current explicit draft flow is complete for preview. Official-domain launch still needs client confirmation and production configuration. No deployment, domain/DNS changes, SMTP credentials, CMS, auth, database or ecommerce work has been performed.
