@@ -139,7 +139,7 @@ export const contactPage = {
     'مكتب واحد. وثلاثة مجالات مترابطة من القدرات.',
   ),
   email: localized('Company email', 'البريد الإلكتروني للشركة'),
-  phone: localized('Abu Dhabi office', 'مكتب أبوظبي'),
+  phone: localized('Phone', 'هاتف'),
   address: localized('Office address', 'عنوان المكتب'),
   mapEyebrow: localized('Location', 'الموقع'),
   mapTitle: company.officeMapTitle,

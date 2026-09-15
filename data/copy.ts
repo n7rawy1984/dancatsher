@@ -115,7 +115,7 @@ const en = {
     description:
       'A project to build. A system to install. Materials to source. Start a conversation with our team.',
     email: 'EMAIL OUR TEAM',
-    phone: 'CALL OUR OFFICE',
+    phone: 'Phone',
     visit: 'OUR OFFICE',
     formTitle: 'Your enquiry starts here',
     name: 'Full name',
@@ -261,7 +261,7 @@ const ar: CopyShape<typeof en> = {
     description:
       'مشروع تنوي تنفيذه. نظام ترغب في تركيبه. مواد تحتاج إلى توريدها. تواصل مع فريقنا لنبدأ الحوار.',
     email: 'راسل فريقنا',
-    phone: 'اتصل بمكتبنا',
+    phone: 'هاتف',
     visit: 'مكتبنا',
     formTitle: 'استفسارك يبدأ هنا',
     name: 'الاسم الكامل',

@@ -8,6 +8,7 @@ import { getLocale } from '@/lib/locale';
 import { copy } from '@/data/copy';
 import { company } from '@/data/company';
 import { Header } from '@/components/layout/header';
+import { WhatsAppContact } from '@/components/layout/whatsapp-contact';
 import { Footer } from '@/components/layout/footer';
 export const metadata: Metadata = {
   icons: { icon: '/brand/favicon.png', apple: '/brand/apple-touch-icon.png' },
@@ -38,6 +39,7 @@ export default async function LocaleLayout({
         />
         <main id="main-content">{children}</main>
         <Footer locale={locale} />
+        <WhatsAppContact locale={locale} />
       </body>
     </html>
   );

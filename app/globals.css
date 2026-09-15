@@ -1927,3 +1927,26 @@ html[lang='ar'] .hero .eyebrow {
     transition: none !important;
   }
 }
+
+.whatsapp-contact {
+  position: fixed;
+  inset-inline-end: max(16px, env(safe-area-inset-right));
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: var(--petroleum);
+  color: #fff;
+  box-shadow: 0 2px 8px rgb(6 29 36 / 12%);
+}
+.whatsapp-contact:hover {
+  background: #16434c;
+}
+.whatsapp-contact:focus-visible {
+  outline: 3px solid #00b8cf;
+  outline-offset: 4px;
+}
