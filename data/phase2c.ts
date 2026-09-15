@@ -146,14 +146,14 @@ export const contactPage = {
   mapBody: company.officeDirections,
   openMap: localized('Open address in maps', 'افتح العنوان في الخرائط'),
   availability: localized(
-    'Send an enquiry draft at any time. The message remains in your email application until you choose to send it.',
-    'يمكنك إعداد مسودة استفسار في أي وقت، وستبقى الرسالة في تطبيق بريدك الإلكتروني إلى أن تختار إرسالها.',
+    'Send an enquiry at any time. Our team will review your requirements and get back to you.',
+    'يمكنك إرسال استفسارك في أي وقت. سيراجع فريقنا متطلباتك ويتواصل معك.',
   ),
   form: {
-    title: localized('Prepare your enquiry', 'جهّز استفسارك'),
+    title: localized('Send your enquiry', 'أرسل استفسارك'),
     intro: localized(
-      'Complete the details below. The form prepares an email draft and does not submit data to a website backend.',
-      'أكمل التفاصيل أدناه. يُعدّ النموذج مسودة بريد إلكتروني ولا يرسل البيانات إلى خادم الموقع.',
+      'Complete the details below to send your enquiry to our team.',
+      'أكمل التفاصيل أدناه لإرسال استفسارك إلى فريقنا.',
     ),
     name: localized('Full name', 'الاسم الكامل'),
     company: localized('Company', 'الشركة'),
@@ -168,7 +168,6 @@ export const contactPage = {
       ['Project enquiry', 'Material request', 'General enquiry'],
       ['استفسار عن مشروع', 'طلب مواد', 'استفسار عام'],
     ),
-    review: localized('Review enquiry', 'مراجعة الاستفسار'),
     required: localized('Required field', 'حقل مطلوب'),
     invalidEmail: localized('Enter a valid email address.', 'أدخل عنوان بريد إلكتروني صحيحاً.'),
     invalidPhone: localized(
@@ -179,15 +178,9 @@ export const contactPage = {
       'Review the highlighted fields before continuing.',
       'راجع الحقول المحددة قبل المتابعة.',
     ),
-    ready: localized(
-      'Your enquiry draft is ready. It has not been sent.',
-      'مسودة استفسارك جاهزة، ولم تُرسل بعد.',
-    ),
-    openEmail: localized('Open email draft', 'فتح مسودة البريد'),
     privacy: localized(
-      'Your details stay in this browser until you open the email draft.',
-      'تبقى بياناتك في هذا المتصفح إلى أن تفتح مسودة البريد الإلكتروني.',
+      'Your details will be used to respond to your enquiry.',
+      'ستُستخدم بياناتك للرد على استفسارك.',
     ),
-    emailSubject: localized('Website enquiry', 'استفسار عبر الموقع'),
   },
 };

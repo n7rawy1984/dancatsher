@@ -124,16 +124,10 @@ const en = {
     division: 'Area of interest',
     requirements: 'Your requirements',
     choose: 'Select a division',
-    submit: 'Review enquiry',
-    notice:
-      'This form lets you prepare an enquiry. To send it, use the email link after reviewing your details.',
-    ready:
-      'Your enquiry is ready to email. It has not been sent. Open your email app and send it to our team.',
-    send: 'Open email with enquiry',
+    notice: 'Complete the details below to send your enquiry to our team.',
     invalid: 'Please complete the required fields and enter a valid email address.',
     required: 'Required fields',
-    emailSubject: 'Website enquiry',
-    privacy: 'Your details stay in this browser until you choose to send an email.',
+    privacy: 'Your details will be used to respond to your enquiry.',
   },
   footer: {
     description: 'Engineering expertise. Practical delivery.\nA partner for what comes next.',
@@ -276,16 +270,10 @@ const ar: CopyShape<typeof en> = {
     division: 'مجال الاهتمام',
     requirements: 'متطلباتك',
     choose: 'اختر القطاع',
-    submit: 'مراجعة الاستفسار',
-    notice:
-      'يتيح لك هذا النموذج إعداد استفسارك. لإرساله، استخدم رابط البريد الإلكتروني بعد مراجعة التفاصيل.',
-    ready:
-      'استفسارك جاهز للإرسال بالبريد الإلكتروني ولم يُرسل بعد. افتح تطبيق البريد وأرسله إلى فريقنا.',
-    send: 'فتح البريد الإلكتروني مع الاستفسار',
+    notice: 'أكمل التفاصيل أدناه لإرسال استفسارك إلى فريقنا.',
     invalid: 'يرجى إكمال الحقول المطلوبة وإدخال بريد إلكتروني صحيح.',
     required: 'حقول مطلوبة',
-    emailSubject: 'استفسار عبر الموقع',
-    privacy: 'تبقى بياناتك في هذا المتصفح إلى أن تختار إرسالها بالبريد الإلكتروني.',
+    privacy: 'ستُستخدم بياناتك للرد على استفسارك.',
   },
   footer: {
     description: 'خبرة هندسية. تنفيذ عملي.\nشريك لخطوتك القادمة.',

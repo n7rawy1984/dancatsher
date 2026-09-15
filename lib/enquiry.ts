@@ -1,69 +1,51 @@
-import { company } from '@/data/company';
-export interface Enquiry {
-  name: string;
-  business: string;
-  email: string;
-  division: string;
-  requirements: string;
-}
-export type EnquiryResult = { status: 'invalid' } | { status: 'prepared'; mailto: string };
-/** Preview-only email draft adapter. Automatic delivery awaits an approved provider. */
-export function prepareEnquiry(enquiry: Enquiry, subject: string): EnquiryResult {
-  if (
-    !enquiry.name.trim() ||
-    !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(enquiry.email) ||
-    !enquiry.division ||
-    !enquiry.requirements.trim() ||
-    !company.email
-  )
-    return { status: 'invalid' };
-  const body = [
-    enquiry.name,
-    enquiry.business,
-    enquiry.email,
-    enquiry.division,
-    '',
-    enquiry.requirements,
-  ].join('\n');
-  return {
-    status: 'prepared',
-    mailto: `mailto:${company.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`,
-  };
-}
+'use client';
 
-export interface ContactEnquiry extends Enquiry {
-  phone: string;
-  subject: string;
-}
+import { useRef, useState } from 'react';
+import type { Locale } from '@/types/content';
 
-export function prepareContactEnquiry(
-  enquiry: ContactEnquiry,
-  defaultSubject: string,
-): EnquiryResult {
-  if (
-    !enquiry.name.trim() ||
-    !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(enquiry.email) ||
-    (enquiry.phone && !/^[+\d][\d\s().-]{6,24}$/.test(enquiry.phone)) ||
-    !enquiry.division ||
-    !enquiry.requirements.trim() ||
-    !company.email
-  ) {
-    return { status: 'invalid' };
+export const enquiryMessages = {
+  send: { en: 'Send enquiry', ar: 'إرسال الاستفسار' },
+  sending: { en: 'Sending...', ar: 'جارٍ الإرسال...' },
+  sent: { en: 'Your enquiry has been sent successfully.', ar: 'تم إرسال استفسارك بنجاح.' },
+  error: {
+    en: 'Something went wrong. Please try again.',
+    ar: 'تعذّر إرسال استفسارك. يُرجى المحاولة مرة أخرى.',
+  },
+};
+
+export function useEnquirySubmission(locale: Locale) {
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error' | 'invalid'>('idle');
+  const pending = useRef(false);
+
+  async function send(form: HTMLFormElement) {
+    if (pending.current) return;
+    pending.current = true;
+    setStatus('sending');
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...Object.fromEntries(new FormData(form)),
+          locale,
+          source: window.location.pathname,
+        }),
+        signal: AbortSignal.timeout(20000),
+      });
+      const result = await response.json();
+      if (!response.ok || result.ok !== true) throw new Error('Submission failed');
+      form.reset();
+      setStatus('sent');
+    } catch {
+      setStatus('error');
+    } finally {
+      pending.current = false;
+    }
   }
 
-  const body = [
-    `Name: ${enquiry.name}`,
-    enquiry.business ? `Company: ${enquiry.business}` : '',
-    `Email: ${enquiry.email}`,
-    enquiry.phone ? `Phone: ${enquiry.phone}` : '',
-    `Area of interest: ${enquiry.division}`,
-    enquiry.subject ? `Enquiry type: ${enquiry.subject}` : '',
-    '',
-    enquiry.requirements,
-  ].filter((line, index) => line || index === 6);
+  function clearStatus() {
+    if (!pending.current) setStatus('idle');
+  }
 
-  return {
-    status: 'prepared',
-    mailto: `mailto:${company.email}?subject=${encodeURIComponent(enquiry.subject || defaultSubject)}&body=${encodeURIComponent(body.join('\n'))}`,
-  };
+  return { status, setStatus, send, clearStatus };
 }

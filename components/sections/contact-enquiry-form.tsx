@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { useState, type FormEvent } from 'react';
 import { divisions } from '@/data/divisions';
 import { contactPage } from '@/data/phase2c';
-import { prepareContactEnquiry, type EnquiryResult } from '@/lib/enquiry';
+import { enquiryMessages, useEnquirySubmission } from '@/lib/enquiry';
 import type { Locale } from '@/types/content';
 import { Arrow } from '@/components/ui/primitives';
 
@@ -17,7 +17,7 @@ export function ContactEnquiryForm({ locale }: { locale: Locale }) {
   const initialDivision = search.get('division') ?? '';
   const initialSubject = search.get('subject') === 'material' ? labels.subjects[locale][1] : '';
   const [errors, setErrors] = useState<Errors>({});
-  const [result, setResult] = useState<EnquiryResult | null>(null);
+  const { status, setStatus, send, clearStatus } = useEnquirySubmission(locale);
 
   function clear(field: Field) {
     setErrors((current) => {
@@ -26,7 +26,7 @@ export function ContactEnquiryForm({ locale }: { locale: Locale }) {
       delete next[field];
       return next;
     });
-    if (result) setResult(null);
+    clearStatus();
   }
 
   function submit(event: FormEvent<HTMLFormElement>) {
@@ -54,11 +54,11 @@ export function ContactEnquiryForm({ locale }: { locale: Locale }) {
     if (!enquiry.requirements) nextErrors.requirements = labels.required[locale];
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length) {
-      setResult({ status: 'invalid' });
+      setStatus('invalid');
       document.getElementById(`contact-${Object.keys(nextErrors)[0]}`)?.focus();
       return;
     }
-    setResult(prepareContactEnquiry(enquiry, labels.emailSubject[locale]));
+    void send(event.currentTarget);
   }
 
   const errorProps = (field: Field) => ({
@@ -71,9 +71,18 @@ export function ContactEnquiryForm({ locale }: { locale: Locale }) {
       className="contact-enquiry-form"
       id="enquiry"
       onSubmit={submit}
-      onChange={() => setResult(null)}
+      onChange={clearStatus}
+      aria-busy={status === 'sending'}
       noValidate
     >
+      <input
+        type="text"
+        name="website"
+        hidden
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+      />
       <div className="contact-form-heading">
         <p className="eyebrow">{locale === 'ar' ? 'نموذج الاستفسار' : 'Enquiry form'}</p>
         <h2>{labels.title[locale]}</h2>
@@ -178,23 +187,17 @@ export function ContactEnquiryForm({ locale }: { locale: Locale }) {
         </label>
       </div>
       <div className="contact-form-submit">
-        <button className="button" type="submit">
-          {labels.review[locale]}
+        <button className="button" type="submit" disabled={status === 'sending'}>
+          {status === 'sending' ? enquiryMessages.sending[locale] : enquiryMessages.send[locale]}
           <Arrow />
         </button>
         <p>{labels.privacy[locale]}</p>
       </div>
       <div className="contact-form-status" role="status" aria-live="polite">
-        {result?.status === 'invalid' && <p>{labels.fixErrors[locale]}</p>}
-        {result?.status === 'prepared' && (
-          <div>
-            <p>{labels.ready[locale]}</p>
-            <a className="text-link" href={result.mailto}>
-              {labels.openEmail[locale]}
-              <Arrow />
-            </a>
-          </div>
-        )}
+        {status === 'invalid' && <p>{labels.fixErrors[locale]}</p>}
+        {status === 'sending' && <p>{enquiryMessages.sending[locale]}</p>}
+        {status === 'sent' && <p>{enquiryMessages.sent[locale]}</p>}
+        {status === 'error' && <p>{enquiryMessages.error[locale]}</p>}
       </div>
     </form>
   );

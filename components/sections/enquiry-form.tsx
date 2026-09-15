@@ -1,31 +1,31 @@
 'use client';
-import { useState, type FormEvent } from 'react';
+import { type FormEvent } from 'react';
 import type { Copy } from '@/data/copy';
 import { divisions } from '@/data/divisions';
-import { prepareEnquiry, type EnquiryResult } from '@/lib/enquiry';
+import { enquiryMessages, useEnquirySubmission } from '@/lib/enquiry';
 import type { Locale } from '@/types/content';
 import { Arrow } from '@/components/ui/primitives';
 export function EnquiryForm({ locale, labels: c }: { locale: Locale; labels: Copy['contact'] }) {
-  const [result, setResult] = useState<EnquiryResult | null>(null);
+  const { status, send, clearStatus } = useEnquirySubmission(locale);
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const fields = new FormData(event.currentTarget);
-    const field = (name: string) => String(fields.get(name) ?? '').trim();
-    setResult(
-      prepareEnquiry(
-        {
-          name: field('name'),
-          business: field('business'),
-          email: field('email'),
-          division: field('division'),
-          requirements: field('requirements'),
-        },
-        c.emailSubject,
-      ),
-    );
+    void send(event.currentTarget);
   }
   return (
-    <form className="enquiry-form" onSubmit={submit} onChange={() => result && setResult(null)}>
+    <form
+      className="enquiry-form"
+      onSubmit={submit}
+      onChange={clearStatus}
+      aria-busy={status === 'sending'}
+    >
+      <input
+        type="text"
+        name="website"
+        hidden
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+      />
       <h3>{c.formTitle}</h3>
       <p className="form-notice" id="form-notice">
         {c.notice}
@@ -57,7 +57,7 @@ export function EnquiryForm({ locale, labels: c }: { locale: Locale; labels: Cop
               {c.choose}
             </option>
             {divisions.map((d) => (
-              <option key={d.id} value={d.title[locale]}>
+              <option key={d.id} value={d.id}>
                 {d.title[locale]}
               </option>
             ))}
@@ -69,22 +69,21 @@ export function EnquiryForm({ locale, labels: c }: { locale: Locale; labels: Cop
         </label>
       </div>
       <div className="form-bottom">
-        <button className="button" type="submit" aria-describedby="form-notice">
-          {c.submit}
+        <button
+          className="button"
+          type="submit"
+          aria-describedby="form-notice"
+          disabled={status === 'sending'}
+        >
+          {status === 'sending' ? enquiryMessages.sending[locale] : enquiryMessages.send[locale]}
           <Arrow />
         </button>
         <span>* {c.required}</span>
       </div>
       <div aria-live="polite" role="status">
-        {result && (
+        {status !== 'idle' && status !== 'invalid' && (
           <div className="form-result">
-            <p>{result.status === 'prepared' ? c.ready : c.invalid}</p>
-            {result.status === 'prepared' && (
-              <a className="text-link" href={result.mailto}>
-                {c.send}
-                <Arrow />
-              </a>
-            )}
+            <p>{enquiryMessages[status][locale]}</p>
           </div>
         )}
       </div>

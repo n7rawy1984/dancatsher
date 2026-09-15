@@ -35,7 +35,7 @@ Run TypeScript and build sequentially because Next regenerates type files. The c
 - `data/routes.ts`: completed paths shared by prerendering and the 20-URL localized sitemap. Sitemap remains empty until a domain is configured.
 - `data/copy.ts`, `data/inner-pages.ts`, `data/phase2c.ts`: typed bilingual copy. Locale layout controls `lang`/`dir`.
 - `data/products.ts`, `data/projects.ts`: seven catalog categories, 47 examples and six supplied site photographs with source references.
-- `lib/enquiry.ts`: isolated preview email-draft preparation. Automatic form delivery is still pending an approved provider and official domain mailbox; no backend or credentials have been connected.
+- `app/api/contact/route.ts`: server-only Resend delivery for both enquiry forms. See [contact email configuration](docs/contact-email.md). `lib/enquiry.ts` handles localized async submission states.
 
 ## Approved branding and navigation
 
@@ -49,4 +49,4 @@ The measured long local wait comes from development cold compilation (up to 21.1
 
 A fresh `main` repository was initialized after final acceptance because this workspace had no previous usable Git history. The user subsequently pushed the approved baseline (`5402903`) to `origin/main` at `n7rawy1984/dancatsher`. The client image update is prepared locally for a separate user-reviewed push.
 
-Ready for GitHub and Vercel client preview. Import only the confirmed repository into the intended Vercel account, retain `NEXT_PUBLIC_ALLOW_INDEXING=false` and leave `NEXT_PUBLIC_SITE_URL` unset for client preview. Do not connect DNS yet. Automatic enquiry delivery is the only deferred website function; the current explicit draft flow is complete for preview. Official-domain launch still needs client confirmation and production configuration. No deployment, domain/DNS changes, SMTP credentials, CMS, auth, database or ecommerce work has been performed.
+Ready for GitHub and Vercel client preview. Import only the confirmed repository into the intended Vercel account, retain `NEXT_PUBLIC_ALLOW_INDEXING=false` and leave `NEXT_PUBLIC_SITE_URL` unset for client preview. Do not connect DNS yet. Automatic enquiry delivery is implemented; configure the server-only Resend variables before using the forms in production. Official-domain launch still needs client confirmation and production configuration. No deployment, domain/DNS changes, SMTP credentials, CMS, auth, database or ecommerce work has been performed.
