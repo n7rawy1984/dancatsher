@@ -20,8 +20,8 @@ interface Company {
   poBox: string;
   postalAddress: { streetAddress: string; addressLocality: string; addressCountry: string };
 }
-// Set only after client approval. Until then, previews use the profile's company email.
-const officialEmail: string | null = null;
+// Approved public contact address. Form delivery is configured separately on the server.
+const officialEmail = 'info@dancatsher.com';
 
 export const company: Company = {
   legalName: 'DANCATSHER Contracting L.L.C.',
@@ -29,7 +29,7 @@ export const company: Company = {
   established: 2018,
   domain: normalizeSiteUrl(process.env.NEXT_PUBLIC_SITE_URL),
   officialEmail,
-  email: officialEmail ?? 'Dancatsher@gmail.com',
+  email: officialEmail,
   telephone: '+97126502011',
   telephoneDisplay: '+971 2 650 2011',
   whatsapp: null,
@@ -71,7 +71,7 @@ export const clientConfirmation: Record<
   'pending-confirmation' | 'not-supplied' | 'confirmed'
 > = {
   domain: 'not-supplied',
-  officialEmail: 'not-supplied',
+  officialEmail: 'confirmed',
   telephone: 'pending-confirmation',
   address: 'pending-confirmation',
   poBox: 'pending-confirmation',
