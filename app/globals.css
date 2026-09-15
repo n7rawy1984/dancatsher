@@ -1930,23 +1930,39 @@ html[lang='ar'] .hero .eyebrow {
 
 .whatsapp-contact {
   position: fixed;
-  inset-inline-end: max(16px, env(safe-area-inset-right));
-  bottom: max(16px, env(safe-area-inset-bottom));
+  bottom: 24px;
+  right: 24px;
+  left: auto;
   z-index: 20;
   display: grid;
   place-items: center;
   width: 48px;
   height: 48px;
-  border: 1px solid var(--gold);
+  border: 0;
   border-radius: 50%;
-  background: var(--petroleum);
+  background: #25d366;
   color: #fff;
-  box-shadow: 0 2px 8px rgb(6 29 36 / 12%);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+}
+.whatsapp-contact[data-locale='ar'] {
+  right: auto;
+  left: 24px;
 }
 .whatsapp-contact:hover {
-  background: #16434c;
+  background: #1ebe5d;
 }
 .whatsapp-contact:focus-visible {
-  outline: 3px solid #00b8cf;
+  outline: 3px solid #18783c;
   outline-offset: 4px;
+  box-shadow: 0 0 0 4px #fff;
+}
+@media (max-width: 767px) {
+  .whatsapp-contact {
+    bottom: 18px;
+    right: 16px;
+  }
+  .whatsapp-contact[data-locale='ar'] {
+    right: auto;
+    left: 16px;
+  }
 }
