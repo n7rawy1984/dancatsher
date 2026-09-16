@@ -78,6 +78,28 @@ export function Footer({ locale }: { locale: Locale }) {
           </span>
           <span>{c.footer.closing}</span>
         </div>
+        <p className="footer-credit">
+          <span lang="en" dir="ltr">
+            Website by{' '}
+            <a
+              href="https://www.elnahrawy.co"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Elnahrawy"
+            >
+              {'Elnahrawy'.split('').map((letter, index) => (
+                <span
+                  key={index}
+                  className="footer-credit-letter"
+                  aria-hidden="true"
+                  style={{ animationDelay: `${index * 120}ms` }}
+                >
+                  {letter}
+                </span>
+              ))}
+            </a>
+          </span>
+        </p>
       </div>
     </footer>
   );

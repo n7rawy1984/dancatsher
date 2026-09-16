@@ -1134,6 +1134,46 @@ html[dir='rtl'] .text-link:hover .arrow {
 .footer-bottom > span:last-child {
   letter-spacing: 1.5px;
 }
+.footer-credit {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #819da3;
+  opacity: 0.9;
+}
+.footer-credit > span {
+  display: inline-block;
+}
+.footer-credit a:hover,
+.footer-credit a:focus-visible {
+  color: #c4d5d8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.footer-credit-letter {
+  display: inline-block;
+  opacity: 0.95;
+  animation: footer-credit-glint 8.2s ease-in-out infinite;
+}
+@keyframes footer-credit-glint {
+  0%,
+  4.4%,
+  100% {
+    opacity: 0.95;
+    filter: brightness(1);
+  }
+  2.2% {
+    opacity: 1;
+    filter: brightness(1.12);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .footer-credit-letter {
+    animation: none;
+    opacity: 1;
+    filter: none;
+  }
+}
 html[lang='ar'] .eyebrow,
 html[lang='ar'] .utility-bar,
 html[lang='ar'] .footer-grid h2,
