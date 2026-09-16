@@ -82,7 +82,7 @@ export function Footer({ locale }: { locale: Locale }) {
           <span lang="en" dir="ltr">
             Website by{' '}
             <a
-              href="https://www.elnahrawy.co"
+              href="https://www.elnahrawy.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Elnahrawy"
