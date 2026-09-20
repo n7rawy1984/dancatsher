@@ -198,6 +198,35 @@ export function AboutInnerPage({ locale }: { locale: Locale }) {
         image="/images/projects/shopping-centre-exterior.webp"
         imageAlt={t(p.hero.imageAlt, locale)}
       />
+      <section className="section about-video-section" aria-labelledby="about-video-title">
+        <div className="container">
+          <div className="inner-section-heading">
+            <h2 id="about-video-title">
+              {locale === 'ar' ? 'دان كاتشر عن قرب' : 'DANCATSHER in Focus'}
+            </h2>
+          </div>
+          <video
+            className="about-profile-video"
+            controls
+            playsInline
+            preload="metadata"
+            width={1280}
+            height={720}
+            dir="ltr"
+            aria-labelledby="about-video-title"
+          >
+            <source src="/videos/dancatsher-company-profile.mp4" type="video/mp4" />
+            {locale === 'ar'
+              ? 'متصفحك لا يدعم تشغيل الفيديو. '
+              : 'Your browser does not support video playback. '}
+            <a href="/videos/dancatsher-company-profile.mp4">
+              {locale === 'ar'
+                ? 'افتح الفيديو التعريفي بالشركة'
+                : 'Open the company introduction video'}
+            </a>
+          </video>
+        </div>
+      </section>
       <section className="section inner-story">
         <div className="container story-grid">
           <div className="story-year" aria-hidden="true">

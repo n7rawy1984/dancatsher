@@ -1,3 +1,17 @@
+.about-video-section {
+  background: linear-gradient(to bottom, var(--petroleum) 0%, var(--petrol) 48%, var(--paper) 48%);
+  color: #fff;
+}
+.about-profile-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  margin-inline: auto;
+  background: var(--petroleum);
+  border: 1px solid #315059;
+}
 .inner-hero {
   background: var(--petroleum);
   color: #fff;
