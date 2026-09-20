@@ -215,11 +215,11 @@ export function AboutInnerPage({ locale }: { locale: Locale }) {
             dir="ltr"
             aria-labelledby="about-video-title"
           >
-            <source src="/videos/dancatsher-company-profile.mp4" type="video/mp4" />
+            <source src="/videos/dancatsher-company-profile-v2.mp4" type="video/mp4" />
             {locale === 'ar'
               ? 'متصفحك لا يدعم تشغيل الفيديو. '
               : 'Your browser does not support video playback. '}
-            <a href="/videos/dancatsher-company-profile.mp4">
+            <a href="/videos/dancatsher-company-profile-v2.mp4">
               {locale === 'ar'
                 ? 'افتح الفيديو التعريفي بالشركة'
                 : 'Open the company introduction video'}
