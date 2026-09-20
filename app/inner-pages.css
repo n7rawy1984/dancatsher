@@ -1,10 +1,13 @@
 .about-video-section {
-  background: linear-gradient(to bottom, var(--petroleum) 0%, var(--petrol) 48%, var(--paper) 48%);
-  color: #fff;
+  background: var(--paper);
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
 }
 .about-profile-video {
   display: block;
   width: 100%;
+  max-width: 800px;
+  max-height: 450px;
   height: auto;
   aspect-ratio: 16 / 9;
   object-fit: contain;
