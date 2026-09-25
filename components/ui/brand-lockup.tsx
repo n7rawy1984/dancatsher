@@ -28,12 +28,12 @@ export function BrandLockup({
     >
       <span className="brand-emblem" aria-hidden="true">
         <Image
-          src="/brand/dcs-emblem.webp"
-          width={256}
-          height={262}
+          src="/images/brand/dcs-logo-official.webp"
+          width={979}
+          height={1606}
           alt=""
           priority={priority}
-          sizes="(max-width: 767px) 34px, 44px"
+          unoptimized
         />
       </span>
       <span className="brand-wordmark">

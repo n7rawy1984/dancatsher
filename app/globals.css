@@ -249,8 +249,9 @@ html[dir='rtl'] .text-link:hover .arrow {
   padding-inline-end: 7px;
 }
 .brand-emblem img {
-  width: 44px;
-  height: 45px;
+  width: auto;
+  height: 53px;
+  max-width: 100%;
   object-fit: contain;
 }
 .brand strong {
@@ -1539,8 +1540,8 @@ html[lang='ar'] .hero .eyebrow {
     padding-inline-end: 8px;
   }
   .brand img {
-    width: 34px;
-    height: 35px;
+    width: auto;
+    height: 48px;
   }
   .brand strong {
     font-size: 17px;
