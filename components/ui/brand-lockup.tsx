@@ -28,7 +28,7 @@ export function BrandLockup({
     >
       <span className="brand-emblem" aria-hidden="true">
         <Image
-          src="/images/brand/dcs-logo-official-v2.webp"
+          src="/images/brand/dcs-logo-transparent-v3.webp"
           width={979}
           height={1606}
           alt=""
