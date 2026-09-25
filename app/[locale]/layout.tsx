@@ -11,7 +11,10 @@ import { Header } from '@/components/layout/header';
 import { WhatsAppContact } from '@/components/layout/whatsapp-contact';
 import { Footer } from '@/components/layout/footer';
 export const metadata: Metadata = {
-  icons: { icon: '/brand/favicon.png', apple: '/brand/apple-touch-icon.png' },
+  icons: {
+    icon: '/brand/favicon.png?v=dcs-official',
+    apple: '/brand/apple-touch-icon.png?v=dcs-official',
+  },
   title: { default: company.legalName, template: '%s | DANCATSHER' },
 };
 export function generateStaticParams() {
